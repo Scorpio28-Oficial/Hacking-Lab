@@ -1,5 +1,4 @@
 #!/bim/bash
-cp Hacking-Lab.sh $PREFIX/etc
 chmod 777 PACKAGES.sh TOOL.sh removet.sh
 bash PACKAGES.sh
 clear
@@ -12,6 +11,7 @@ echo -e "\e[1;37m
 ------------------------------------------------------\e[0m"
 echo -e ""
 echo -e ""
+cp Hacking-Lab.sh $PREFIX/etc
 apt-get install -y ruby
 pkg install pv
 apt-get install -y espeak
