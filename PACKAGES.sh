@@ -4,17 +4,6 @@
 #
 # Bash-Login: (16/07/2021)
 #
-# COLORES
-#negro="[1;30m"
-azul="[1;34m"
-verde="[1;32m"
-cian="[1;36m"
-rojo="[1;31m"
-purpura="[1;35m"
-amarillo="[1;33m"
-blanco="[1;37m"
-#
-trap ctrl_c
 cd
 sleep 0.5
 echo -e "
