@@ -12,12 +12,10 @@ pkg install pv
 apt-get install -y espeak
 pip install lolcat
 clear
-chmod 777 PACKAGES.sh TOOL.sh rem.sh
+chmod 777 PACKAGES.sh TOOL.sh
 bash PACKAGES.sh
 clear
 bash TOOL.sh
-clear
-bash rem.sh
 clear
 #!/data/data/com.termux/usr/bin/bash
 clear
