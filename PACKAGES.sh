@@ -1,10 +1,4 @@
-#!/bim/bash
-#
-# Team: Informatic in Termux
-#
-# Hacking-Lab: (16/07/2021)
-#
-cd
+cd /data/data/com.termux/files/home
 sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════════════┐
