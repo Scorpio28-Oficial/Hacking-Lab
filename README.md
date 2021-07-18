@@ -27,4 +27,7 @@ https://t.me/Informatic_in_Termux
 #### By: Scorpio28
 
 
-###### Este pequeñño Laboratorio fue creado con fines educativos, cualquier uso es responsabilidad de quien lo utikice.
+###### Este pequeño Laboratorio fue creado con fines educativos e informaticos, cualquier uso es responsabilidad de quien lo utilice.
+
+
+###### EL CONOCIMIENTO ES LIBRE.
