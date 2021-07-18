@@ -7,15 +7,17 @@ echo -e "\e[1;37m
 echo -e ""
 echo -e ""
 cp Hacking-Lab.sh $PREFIX/etc
+apt-et install -y ruby
+pkg install pv
+apt-get install -y espeak
+pip install lolcat
+clear
 chmod 777 PACKAGES.sh TOOL.sh rem.sh
 bash PACKAGES.sh
 clear
 bash TOOL.sh
+clear
 bash rem.sh
-apt-get install -y ruby
-pkg install pv
-apt-get install -y espeak
-pip install lolcat
 clear
 #!/data/data/com.termux/usr/bin/bash
 clear
