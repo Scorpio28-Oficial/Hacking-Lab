@@ -3,7 +3,7 @@ echo -e "\e[1;30m
 ┌═══━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━═══┐\e[1;32m
 
               S C O R P I O 2 8    
-            Informatic in Termux\e[1;30m
+            Informatic in Termux©\e[1;30m
 
 └═══━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━═══┘\e[0m"
 echo -e ""
