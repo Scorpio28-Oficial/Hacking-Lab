@@ -8,7 +8,7 @@
 ### INSTALACIÓN
 
 ```
-$ pkg install -git
+$ pkg install -y git
 
 $ git clone https://github.com/Scorpio28-Oficial/Hacking-Lab
 
