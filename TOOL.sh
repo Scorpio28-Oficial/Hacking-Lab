@@ -1,14 +1,13 @@
 cd /data/data/com.termux/files/home
 sleep 0.5
-echo -e "
-\e[1;30m┌═════════════════════════════┐
-█\e[1;32m BEGINNING TOOL INSTALLATION \e[1;30m█
-└═════════════════════════════┘\e[0m"
+echo -e "\e[1;30m┌═════════════════════════════┐\e[0m"
+echo -e "\e[1;30m█\e[1;32m BEGINNING TOOL INSTALLATION \e[1;30m█\e[0m"
+echo -e "[1;30m└═════════════════════════════┘\e[0m"
 echo -e ""
 echo -e ""
 echo -e ""
 cd $HOME
-sleep 0,5
+sleep 0.5
 echo -e "
 \e[1;30m┌═════════════┐
 █\e[1;32m CamPhish... \e[1;30m█
@@ -18,7 +17,7 @@ git clone https://github.com/Scorpio28-Official/CamPhish
 cd CamPhish
 chmod 711 camphish.sh
 cd $HOME
-sleep 0,5
+sleep 0.5
 echo -e "
 \e[1;30m┌═════════════┐
 █\e[1;32m AIOPhish... \e[1;30m█
@@ -27,7 +26,7 @@ echo -e ""
 git clone https://github.com/Scorpio28-Official/AIOPhish
 cd AIOPhish
 cd $HOME
-sleep 0,5
+sleep 0.5
 echo -e "
 \e[1;30m┌════════════════┐
 █\e[1;32m DDos-Attack... \e[1;30m█
@@ -36,7 +35,7 @@ echo -e ""
 git clone https://github.com/Scorpio28-Official/DDos-Attack
 cd DDos-Attack
 cd $HOME
-sleep 0,5
+sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════┐
 █\e[1;32m Email-Supplant... \e[1;30m█
@@ -46,7 +45,7 @@ git clone https://github.com/Scorpio28-Official/Email-Supplant
 cd Email-Supplant
 chmod 777 Email-Supplant.sh
 cd $HOME
-sleep 0,5
+sleep 0.5
 echo -e "
 \e[1;30m┌════════════┐
 █\e[1;32m EvilURL... \e[1;30m█
@@ -55,7 +54,7 @@ echo -e ""
 git clone https://github.com/Scorpio28-Official/EvilURL
 cd EvilURL
 cd $HOME
-sleep 0,5
+sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════┐
 █\e[1;32m Hack-Tools... \e[1;30m█
@@ -65,7 +64,7 @@ git clone https://github.com/Scorpio28-Official/Hack-Tools
 cd Hack-Tools
 chmod 777 Hack-Tools.py
 cd $HOME
-sleep 0,5
+sleep 0.5
 echo -e "
 \e[1;30m┌════════════════┐
 █\e[1;32m ISPLocation... \e[1;30m█
