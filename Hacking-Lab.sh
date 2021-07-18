@@ -1349,21 +1349,13 @@ pip2 install colorama
 chmod +x main_linux.py
 pip install colorama
 pip2 install colorama
-cd $HOME
-clear
-cp Hacking-Lab.sh $PREFIX/etc
-apt update
 pkg install pv
 pkg install cmatrix
 apt-get install -y ruby
 apt-get install -y espeak
 apt install python
 pip install lolcat
-clear
-bash PACKAGES.sh
-clear
-bash TOOL.sh
-clear
+cp Hacking-Lab.sh $PREFIX/etc
 #!/data/data/com.termux/usr/bin/bash
 clear
 echo -e "
