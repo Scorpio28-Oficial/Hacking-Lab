@@ -45,6 +45,15 @@ cd ..
 cd usr/etc
 rm motd
 rm bash.bashrc
+cd /data/data/com.termux/files/home
+ls
+rm -rf PACKAGES.sh
+ls
+rm -rf TOOL.sh
+ls
+rm -rf LICENCE
+ls
+rm -rf README.md
 cat <<LOGIN>bash.bashrc
 trap '' 2
 sleep 0.5
