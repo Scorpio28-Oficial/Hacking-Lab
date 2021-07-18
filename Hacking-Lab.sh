@@ -570,6 +570,7 @@ git clone https://github.com/Scorpio28-Official/FotoSploit
 cd FotoSploit
 chmod 777 install.sh
 bash install.sh
+y
 cd $HOME
 echo -e "
 \e[1;30m┌═════════════┐
