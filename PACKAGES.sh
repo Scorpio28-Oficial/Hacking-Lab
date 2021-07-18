@@ -13,7 +13,8 @@ echo -e "
 █\e[1;32m UPDATING DATA IN PACKAGES... \e[1;30m█
 └══════════════════════════════┘\e[0m"
 echo -e ""
-pkg update && pkg upgrade -y
+pkg update -y
+pkg upgrade -y
 cd $HOME
 sleep 0.5
 echo -e "
@@ -39,7 +40,7 @@ echo -e "
 █\e[1;32m NETCAT... \e[1;30m█
 └═══════════┘\e[0m"
 echo -e ""
-pkg install -y netcat
+pkg install netcat -y
 cd $HOME
 sleep 0.5
 echo -e "
