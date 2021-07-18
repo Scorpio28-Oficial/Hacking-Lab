@@ -4,12 +4,6 @@ chmod 777 PACKAGES.sh TOOL.sh
 bash PACKAGES.sh
 clear
 bash TOOL.sh
-cd $HOME
-rm -rf PACKAGES.sh
-rm -rf TOOL.sh
-rm -rf LICENCE
-rm -rf README.md
-clear
 echo -e "\e[1;37m
 ------------------------------------------------------
                 B Y  S C O R P I O 2 8        
@@ -21,6 +15,17 @@ apt-get install -y ruby
 pkg install pv
 apt-get install -y espeak
 pip install lolcat
+clear
+cd $HOME
+ls
+rm -rf PACKAGES.sh
+ls
+rm -rf TOOL.sh
+ls
+rm -rf LICENCE
+ls
+rm -rf README.md
+ls
 clear
 #!/data/data/com.termux/usr/bin/bash
 clear
