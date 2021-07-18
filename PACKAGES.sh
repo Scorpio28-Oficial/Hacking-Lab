@@ -2,7 +2,7 @@
 #
 # Team: Informatic in Termux
 #
-# Bash-Login: (16/07/2021)
+# Hacking-Lab: (16/07/2021)
 #
 cd
 sleep 0.5
