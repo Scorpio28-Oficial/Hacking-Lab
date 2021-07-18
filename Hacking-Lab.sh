@@ -12,8 +12,10 @@ pkg install pv
 apt-get install -y espeak
 pip install lolcat
 chmod 777 PACKAGES.sh TOOL.sh
+sleep 0.5
 bash PACKAGES.sh
 clear
+sleep 0.5
 bash TOOL.sh
 rm -rf PACKAGES.sh
 rm -rf TOOL.sh
