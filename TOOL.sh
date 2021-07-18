@@ -1,6 +1,6 @@
 cd /data/data/com.termux/files/home
 echo -e ""
-sleep 0.1
+sleep 0.5
 echo -e "\e[1;30m┌═════════════════════════════┐
 █\e[1;32m BEGINNING TOOL INSTALLATION \e[1;30m█
 └═════════════════════════════┘\e[0m"
