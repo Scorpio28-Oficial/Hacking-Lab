@@ -1,9 +1,4 @@
 #!/bim/bash
-chmod 777 PACKAGES.sh TOOL.sh removet.sh
-bash PACKAGES.sh
-clear
-bash TOOL.sh
-bash removet.sh
 echo -e "\e[1;37m
 ------------------------------------------------------
                 B Y  S C O R P I O 2 8        
@@ -12,6 +7,11 @@ echo -e "\e[1;37m
 echo -e ""
 echo -e ""
 cp Hacking-Lab.sh $PREFIX/etc
+chmod 777 PACKAGES.sh TOOL.sh rem.sh
+bash PACKAGES.sh
+clear
+bash TOOL.sh
+bash rem.sh
 apt-get install -y ruby
 pkg install pv
 apt-get install -y espeak
