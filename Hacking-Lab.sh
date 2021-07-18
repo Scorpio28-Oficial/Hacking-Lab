@@ -1,3 +1,16 @@
+#!/bim/bash
+echo -e "\e[1;37m
+-----------------------------------------------------------
+                  B Y  S C O R P I O 2 8        
+           Starting the Bash-Login installation
+-----------------------------------------------------------\e[0m"
+echo -e ""
+echo -e ""
+cp login.sh $PREFIX/etc
+apt-get install -y ruby
+pkg install pv
+apt-get install -y espeak
+pip install lolcat
 cd /data/data/com.termux/files/home
 chmod 777 PACKAGES.sh TOOL.sh
 bash PACKAGES.sh
@@ -6,18 +19,6 @@ bash TOOL.sh
 rm -rf PACKAGES.sh
 rm -rf TOOL.sh
 clear
-#!/bim/bash
-echo -e "\e[1;37m
------------------------------------------------------------
-                  B Y  S C O R P I O 2 8        
-           Starting the Bash-Login installation
------------------------------------------------------------\e[0m"
-echo
-cp login.sh $PREFIX/etc
-apt-get install -y ruby
-pkg install pv
-apt-get install -y espeak
-pip install lolcat
 #!/data/data/com.termux/usr/bin/bash
 clear
 echo -e "
