@@ -1,10 +1,8 @@
 cd /data/data/com.termux/files/home
 sleep 0.1
-echo -e "\e[1;30m┌══════════════════════════┐\e[0m"
-sleep 0.1
-echo -e "\e[1;30m█\e[1;32m INSTALLATION OF PACKAGES \e[1;30m█\e[0m"
-sleep 0.1
-echo -e "\e[1;30m└══════════════════════════┘\e[0m"
+echo -e "\e[1;30m┌══════════════════════════┐
+█\e[1;32m INSTALLATION OF PACKAGES \e[1;30m█
+└══════════════════════════┘\e[0m"
 echo -e ""
 echo -e ""
 echo -e ""
