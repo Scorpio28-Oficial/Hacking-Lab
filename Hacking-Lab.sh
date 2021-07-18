@@ -1281,6 +1281,9 @@ apt install python
 apt install python2
 pip2 install colorama
 chmod +x main_linux.py
+clear
+#!/bim/bash
+cp Hacking-Lab.sh $PREFIX/etc
 pip install colorama
 pip2 install colorama
 pkg install pv
@@ -1289,7 +1292,6 @@ apt-get install -y ruby
 apt-get install -y espeak
 apt install python
 pip install lolcat
-cp Hacking-Lab.sh $PREFIX/etc
 #!/data/data/com.termux/usr/bin/bash
 clear
 echo -e "
