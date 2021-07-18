@@ -75,7 +75,7 @@ echo -e "
 █\e[1;32m OPENSSH... \e[1;30m█
 └════════════┘\e[0m"
 echo -e ""
-pkg install openssh
+pkg install openssh -y
 echo -e "
 \e[1;30m┌════════════┐
 █\e[1;32m OPENSSL... \e[1;30m█
@@ -446,6 +446,7 @@ echo -e "\e[1;30m┌════════════════════
 └═════════════════════════════┘
 
 
+cd $HOME
 \e[1;30m┌═════════════┐
 █\e[1;32m CamPhish... \e[1;30m█
 └═════════════┘\e[0m"
