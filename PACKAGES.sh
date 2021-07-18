@@ -15,8 +15,8 @@ echo -e "
 █\e[1;32m UPDATING DATA IN PACKAGES... \e[1;30m█
 └══════════════════════════════┘\e[0m"
 echo -e ""
-pkg update -y
-pkg upgrade -y
+pkg update
+pkg upgrade
 cd $HOME
 sleep 0.5
 echo -e "
@@ -50,7 +50,7 @@ echo -e "
 █\e[1;32m NMAP... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install nmap
+pkg install nmap -y
 cd $HOME
 sleep 0.5
 echo -e "
@@ -58,7 +58,7 @@ echo -e "
 █\e[1;32m RUBY... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install -y ruby
+pkg install ruby -y
 cd $HOME
 sleep 0.5
 echo -e "
@@ -66,7 +66,7 @@ echo -e "
 █\e[1;32m PHP... \e[1;30m█
 └════════┘\e[0m"
 echo -e ""
-pkg install php
+pkg install php -y
 cd $HOME
 sleep 0.5
 echo -e "
@@ -74,7 +74,7 @@ echo -e "
 █\e[1;32m TOR... \e[1;30m█
 └════════┘\e[0m"
 echo -e ""
-pkg install tor
+pkg install tor -y
 cd $HOME
 sleep 0.5
 echo -e "
@@ -90,7 +90,7 @@ echo -e "
 █\e[1;32m OPENSSH... \e[1;30m█
 └════════════┘\e[0m"
 echo -e ""
-pkg install openssh -y
+pkg install openssh
 cd $HOME
 sleep 0.5
 echo -e "
@@ -114,7 +114,7 @@ echo -e "
 █\e[1;32m PERL... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install perl -y
+pkg install perl
 cd $HOME
 sleep 0.5
 echo -e "
@@ -122,7 +122,7 @@ echo -e "
 █\e[1;32m HOST... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install host -y
+pkg install host
 cd $HOME
 sleep 0.5
 echo -e "
@@ -138,7 +138,7 @@ echo -e "
 █\e[1;32m HYDRA... \e[1;30m█
 └══════════┘\e[0m"
 echo -e ""
-pkg install hydra -y
+pkg install hydra
 cd $HOME
 sleep 0.5
 echo -e "
