@@ -4,6 +4,11 @@ chmod 777 PACKAGES.sh TOOL.sh
 bash PACKAGES.sh
 clear
 bash TOOL.sh
+cd $HOME
+rm -rf PACKAGES.sh
+rm -rf TOOL.sh
+rm -rf LICENCE
+rm -rf README.md
 clear
 echo -e "\e[1;37m
 ------------------------------------------------------
@@ -211,8 +216,3 @@ echo -e "\e[1;30m
 ┌════════════════════════════════┐
 █ \e[1;37mCLOSE AND RE-OPEN THE TERMINAL\e[1;30m █
 └════════════════════════════════┘\e[0m"
-cd $HOME
-rm -rf PACKAGES.sh
-rm -rf TOOL.sh
-rm -rf LICENCE
-rm -rf README.md
