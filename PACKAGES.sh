@@ -1,5 +1,5 @@
 cd /data/data/com.termux/files/home
-sleep 0.1
+sleep 0.5
 echo -e "\e[1;30m┌══════════════════════════┐
 █\e[1;32m INSTALLATION OF PACKAGES \e[1;30m█
 └══════════════════════════┘\e[0m"
