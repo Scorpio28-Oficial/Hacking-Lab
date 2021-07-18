@@ -781,6 +781,7 @@ git clone https://github.com/Scorpio28-Official/Ip-Attack
 cd Ip-Attack
 chmod +x requirement.sh ip-attack.py
 bash requirement.sh
+y
 cd $HOME
 echo -e "
 \e[1;30m┌════════════════┐
