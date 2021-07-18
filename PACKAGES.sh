@@ -4,7 +4,6 @@ echo -e "\e[1;30m┌════════════════════
 █\e[1;32m INSTALLATION OF PACKAGES \e[1;30m█
 └══════════════════════════┘\e[0m"
 echo -e ""
-cd $HOME
 echo -e "
 \e[1;30m┌══════════════════════════════┐
 █\e[1;32m UPDATING DATA IN PACKAGES... \e[1;30m█
