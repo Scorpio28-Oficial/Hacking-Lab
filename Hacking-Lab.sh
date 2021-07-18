@@ -15,6 +15,7 @@ echo -e "\e[1;37m
 echo
 cp login.sh $PREFIX/etc
 apt-get install -y ruby
+pkg install pv
 apt-get install -y espeak
 pip install lolcat
 #!/data/data/com.termux/usr/bin/bash
