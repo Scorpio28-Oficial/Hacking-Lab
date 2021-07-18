@@ -16,17 +16,6 @@ pkg install pv
 apt-get install -y espeak
 pip install lolcat
 clear
-cd $HOME
-ls
-rm -rf PACKAGES.sh
-ls
-rm -rf TOOL.sh
-ls
-rm -rf LICENCE
-ls
-rm -rf README.md
-ls
-clear
 #!/data/data/com.termux/usr/bin/bash
 clear
 echo -e "
