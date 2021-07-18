@@ -15,7 +15,6 @@ apt-get install -y espeak
 apt install python
 pip install lolcat
 clear
-chmod 777 PACKAGES.sh TOOL.sh
 bash PACKAGES.sh
 clear
 bash TOOL.sh
