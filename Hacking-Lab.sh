@@ -7,9 +7,12 @@ echo -e "\e[1;37m
 echo -e ""
 echo -e ""
 cp Hacking-Lab.sh $PREFIX/etc
-apt-et install -y ruby
+apt update
 pkg install pv
+pkg install cmatrix
+apt-get install -y ruby
 apt-get install -y espeak
+apt install python
 pip install lolcat
 clear
 chmod 777 PACKAGES.sh TOOL.sh
