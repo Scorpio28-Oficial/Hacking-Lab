@@ -1,9 +1,9 @@
 #!/bim/bash
 echo -e "\e[1;37m
-------------------------------------------------------
-                B Y  S C O R P I O 2 8        
-         Starting the Bash-Login installation
-------------------------------------------------------\e[0m"
+------------------------------------------------
+             B Y  S C O R P I O 2 8        
+      Starting the Bash-Login installation
+------------------------------------------------\e[0m"
 echo -e ""
 echo -e ""
 cp Hacking-Lab.sh $PREFIX/etc
