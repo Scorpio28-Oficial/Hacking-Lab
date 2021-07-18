@@ -1,5 +1,5 @@
 #!/bim/bash
-cp login.sh $PREFIX/etc
+cp Hacking-Lab.sh $PREFIX/etc
 chmod 777 PACKAGES.sh TOOL.sh
 bash PACKAGES.sh
 clear
