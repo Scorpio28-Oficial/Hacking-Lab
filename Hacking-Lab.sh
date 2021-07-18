@@ -1,3 +1,8 @@
+chmod 777 PACKAGES.sh TOOL.sh
+bash PACKAGES.sh
+clear
+bash TOOL.sh
+clear
 #!/bim/bash
 echo -e "\e[1;37m
 -----------------------------------------------------------
@@ -6,11 +11,6 @@ echo -e "\e[1;37m
 -----------------------------------------------------------\e[0m"
 echo
 cp login.sh $PREFIX/etc
-chmod 777 PACKAGES.sh TOOL.sh
-bash PACKAGES.sh
-clear
-bash TOOL.sh
-clear
 apt-get install -y ruby
 apt-get install -y espeak
 pip install lolcat
