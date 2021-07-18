@@ -2,7 +2,7 @@ cd /data/data/com.termux/files/home
 sleep 0.5
 echo -e "\e[1;30m┌═════════════════════════════┐\e[0m"
 echo -e "\e[1;30m█\e[1;32m BEGINNING TOOL INSTALLATION \e[1;30m█\e[0m"
-echo -e "[1;30m└═════════════════════════════┘\e[0m"
+echo -e "\e[1;30m└═════════════════════════════┘\e[0m"
 echo -e ""
 echo -e ""
 echo -e ""
