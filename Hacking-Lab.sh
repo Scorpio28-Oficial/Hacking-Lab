@@ -218,4 +218,4 @@ cd $HOME
 rm -rf PACKAGES.sh
 rm -rf TOOL.sh
 rm -rf LICENCE
-rm -rf 
+rm -rf README.md
