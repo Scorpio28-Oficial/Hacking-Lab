@@ -11,8 +11,9 @@ apt-get install -y ruby
 pkg install pv
 apt-get install -y espeak
 pip install lolcat
-cd /data/data/com.termux/files/home
 chmod 777 PACKAGES.sh TOOL.sh
+mv PACKAGES.sh $HOME
+mv TOOL.sh $HOME
 bash PACKAGES.sh
 clear
 bash TOOL.sh
