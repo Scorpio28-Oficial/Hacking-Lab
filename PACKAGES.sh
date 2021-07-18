@@ -1,7 +1,9 @@
 cd /data/data/com.termux/files/home
-sleep 0.5
+sleep 0.1
 echo -e "\e[1;30m┌══════════════════════════┐\e[0m"
+sleep 0.1
 echo -e "\e[1;30m█\e[1;32m INSTALLATION OF PACKAGES \e[1;30m█\e[0m"
+sleep 0.1
 echo -e "\e[1;30m└══════════════════════════┘\e[0m"
 echo -e ""
 echo -e ""
@@ -24,7 +26,7 @@ echo -e "
 echo -e ""
 pkg install python -y
 pkg install python2 -y
-pkg install python3 -y
+pkg install python3 -y'
 cd $HOME
 sleep 0.5
 echo -e "
@@ -32,7 +34,7 @@ echo -e "
 █\e[1;32m JAVA... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install java -y
+pkg install java
 cd $HOME
 sleep 0.5
 echo -e "
@@ -40,7 +42,7 @@ echo -e "
 █\e[1;32m NETCAT... \e[1;30m█
 └═══════════┘\e[0m"
 echo -e ""
-pkg install netcat -y
+pkg install netcat
 cd $HOME
 sleep 0.5
 echo -e "
@@ -48,7 +50,7 @@ echo -e "
 █\e[1;32m NMAP... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install nmap -y
+pkg install nmap
 cd $HOME
 sleep 0.5
 echo -e "
@@ -56,7 +58,7 @@ echo -e "
 █\e[1;32m RUBY... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install ruby -y
+pkg install -y ruby
 cd $HOME
 sleep 0.5
 echo -e "
@@ -64,7 +66,7 @@ echo -e "
 █\e[1;32m PHP... \e[1;30m█
 └════════┘\e[0m"
 echo -e ""
-pkg install php -y
+pkg install php
 cd $HOME
 sleep 0.5
 echo -e "
@@ -72,7 +74,7 @@ echo -e "
 █\e[1;32m TOR... \e[1;30m█
 └════════┘\e[0m"
 echo -e ""
-pkg install tor -y
+pkg install tor
 cd $HOME
 sleep 0.5
 echo -e "
@@ -80,7 +82,7 @@ echo -e "
 █\e[1;32m SQLMAP... \e[1;30m█
 └═══════════┘\e[0m"
 echo -e ""
-pkg install -y sqlmap
+pkg install sqlmap
 cd $HOME
 sleep 0.5
 echo -e "
