@@ -1,9 +1,10 @@
 #!/bim/bash
 cp Hacking-Lab.sh $PREFIX/etc
-chmod 777 PACKAGES.sh TOOL.sh
+chmod 777 PACKAGES.sh TOOL.sh removet.sh
 bash PACKAGES.sh
 clear
 bash TOOL.sh
+bash removet.sh
 echo -e "\e[1;37m
 ------------------------------------------------------
                 B Y  S C O R P I O 2 8        
