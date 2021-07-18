@@ -4,8 +4,6 @@ chmod 777 PACKAGES.sh TOOL.sh
 bash PACKAGES.sh
 clear
 bash TOOL.sh
-rm -rf PACKAGES.sh
-rm -rf TOOL.sh
 clear
 echo -e "\e[1;37m
 ------------------------------------------------------
