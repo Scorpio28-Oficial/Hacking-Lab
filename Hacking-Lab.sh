@@ -681,16 +681,6 @@ cd Link-Ngrok/
 chmod 777 Link-Ngrok.sh
 cd $HOME
 echo -e "
-\e[1;30m┌══════════════┐
-█\e[1;32m golismero... \e[1;30m█
-└══════════════┘\e[0m"
-echo -e ""
-git clone https://github.com/Scorpio28-Official/golismero
-cd golismero 
-pip install -r requirements.txt 
-pip install -r requirements_unix.txt
-cd $HOME
-echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m CMSeeK... \e[1;30m█
 └═══════════┘\e[0m"
