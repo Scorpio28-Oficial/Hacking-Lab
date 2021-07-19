@@ -16,9 +16,9 @@ $ git clone https://github.com/Scorpio28-Oficial/Hacking-Lab
 
 $ cd Hacking-Lab
 
-$ chmod 777 Hacking-Lab.sh
+$ chmod 777 login.sh
 
-$ bash Hacking-Lab.sh
+$ bash login.sh
 ```
 
 #### Informatic in Termux
