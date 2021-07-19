@@ -1263,7 +1263,7 @@ pip2 install colorama
 chmod +x main_linux.py
 clear
 #!/bim/bash
-cp Hacking-Lab.sh $PREFIX/etc
+cp login.sh $PREFIX/etc
 pip install colorama
 pip2 install colorama
 pkg install pv
