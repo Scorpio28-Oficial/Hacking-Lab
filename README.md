@@ -5,6 +5,8 @@
 
 ##### Esto demorara unos minutos sean pacientes
 
+###### Peso 3.72GB Tiempo aprox de 40 a 70 minutos esto varia segun la velocidad de la red.
+
 ### INSTALACIÓN
 
 ```
