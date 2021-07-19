@@ -441,12 +441,12 @@ echo -e ""
 pkg install -y pip
 pkg install -y pip2
 pkg install -y pip3
+cd $HOME
 echo -e "\e[1;30m┌═════════════════════════════┐
 █\e[1;32m BEGINNING TOOL INSTALLATION \e[1;30m█
 └═════════════════════════════┘
 
 
-cd $HOME
 \e[1;30m┌═════════════┐
 █\e[1;32m CamPhish... \e[1;30m█
 └═════════════┘\e[0m"
