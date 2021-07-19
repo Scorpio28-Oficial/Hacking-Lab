@@ -800,16 +800,6 @@ cd shark
 chmod 777 setup shark
 cd $HOME
 echo -e "
-\e[1;30m┌═══════════════════┐
-█\e[1;32m Central-Nahfer... \e[1;30m█
-└═══════════════════┘\e[0m"
-echo -e ""
-git clone https://github.com/Scorpio28-Official/Central-Nahfer
-cd Central-Nahfer
-bash install.sh
-chmod 711 Nahfer-Hacking.sh
-cd $HOME
-echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m seeker... \e[1;30m█
 └═══════════┘\e[0m"
