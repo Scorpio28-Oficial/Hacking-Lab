@@ -23,7 +23,6 @@ $ bash Hacking-Lab.sh
 
 #### Informatic in Termux
 
-👇👇👇
 https://t.me/Informatic_in_Termux
 
 #### By: Scorpio28
