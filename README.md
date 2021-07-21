@@ -51,7 +51,7 @@ https://t.me/Informatic_in_Termux
 
 ###### EL CONOCIMIENTO ES LIBRE.
 
-#### Captura 1
+#### Capturas
 <p align="center">
 	<img src="https://i.imgur.com/xnDY94t.jpg" width="600px">
 </p>
