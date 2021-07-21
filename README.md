@@ -53,10 +53,17 @@ https://t.me/Informatic_in_Termux
 
 #### Captura 1
 <p align="center">
-	<img src="https://i.imgur.com/9sXk5d0.jpg" width="600px">
+	<img src="https://i.imgur.com/xnDY94t.jpg" width="600px">
 </p>
 
-#### Captura 2
+<p align="center">
+	<img src="https://i.imgur.com/HSy7nhp.jpg" width="600px">
+</p>
+
+<p align="center">
+	<img src="https://i.imgur.com/z773ZvQ.jpg" width="600px">
+</p>
+
 <p align="center">
 	<img src="https://i.imgur.com/nTJTGic.jpg" width="600px">
 </p>
