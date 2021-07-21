@@ -25,6 +25,20 @@ $ chmod 777 login.sh
 $ bash login.sh
 ```
 
+##### SI DURANTE LA INSTALACIO APARECE 
+
+[y/n]
+
+Dan un 'y' y dan enter para continuar
+
+O si apacece un
+
+default?
+
+Solo dan Enter
+
+###### Cuando ya lo ayan instalado ponen su usuario y dan enter enseguida su contraceña (para los que ignoran esto en la contraceña no se ve lo que se escribe solo se vusualiza el usuario pero la terminal lo lee) y da enter.
+
 #### Informatic in Termux
 
 https://t.me/Informatic_in_Termux
