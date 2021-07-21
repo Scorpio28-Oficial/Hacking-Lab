@@ -58,15 +58,5 @@ https://t.me/Informatic_in_Termux
 
 #### Captura 2
 <p align="center">
-	<img src="https://i.imgur.com/zRITxlX.jpg" width="600px">
-</p>
-
-#### Captura 3
-<p align="center">
-	<img src="https://i.imgur.com/aH0yckB.jpg" width="600px">
-</p>
-
-#### Captura 4
-<p align="center">
 	<img src="https://i.imgur.com/nTJTGic.jpg" width="600px">
 </p>
