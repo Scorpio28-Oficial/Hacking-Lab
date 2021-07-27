@@ -9,6 +9,7 @@ echo -e "\e[1;30m
 echo -e ""
 echo -e ""
 echo -e ""
+sleep 0.5
 echo -e "\e[1;30m┌═══════════════════════════════════════════┐
 █\e[1;32m COMENZANDO CON LA INSTALACIÓN DE PAQUETES \e[1;30m█
 └═══════════════════════════════════════════┘
@@ -441,6 +442,19 @@ echo -e ""
 pkg install -y pip
 pkg install -y pip2
 pkg install -y pip3
+clear
+sleep 0.5
+echo -e "
+\e[1;30m┌═══════════════════════════════════┐
+█\e[1;32m INSTALACIÓN DE PAQUETES TERMINADO \e[1;30m█
+└═══════════════════════════════════┘\e[0m"
+echo -e ""
+echo -e ""
+echo -e ""
+echo -e ""
+echo -e ""
+sleep 0.5
+echo -e ""
 cd $HOME
 echo -e "\e[1;30m┌═══════════════════════════════════════════┐
 █\e[1;32m COMENZANDO LA INSTALACIÓN DE HERRAMIENTAS \e[1;30m█
