@@ -1275,6 +1275,11 @@ apt install python
 apt install python2
 pip2 install colorama
 chmod +x main_linux.py
+echo -e ""
+echo -e "
+\e[1;30m┌═══════════════════════════════════════┐
+█\e[1;32m INSTALACIÓN DE HERRAMIENTAS TERMINADO \e[1;30m█
+└═══════════════════════════════════════┘\e[0m"
 clear
 #!/bim/bash
 cp login.sh $PREFIX/etc
@@ -1298,15 +1303,15 @@ echo -e "
 [+] Telegram: https://t.me/Informatic_in_Termux
 \e[0m"
 read -p $'\e[1;30m
-┌════════════════════════════┐
-█\e[1;37m  CREATE USERNAME TO LOGIN  \e[1;30m█
-└════════════════════════════┘
+┌═════════════════════════════════════════┐
+█\e[1;37m  ELIJA UN USUARIO PARA INICIAR SECCIÓN  \e[1;30m█
+└═════════════════════════════════════════┘
 ┃
 └═>>>\e[1;32m ' username
 read -p $'\e[1;30m
-┌════════════════════════════┐
-█\e[1;37m  CREATE PASSWORD TO LOGIN  \e[1;30m█
-└════════════════════════════┘
+┌═════════════════════════════════════════════┐
+█\e[1;37m  ELIJA UNA CONTRACEÑA PARA INICIAR SECCIÓN  \e[1;30m█
+└═════════════════════════════════════════════┘
 ┃
 └═>>>\e[1;32m ' password
 cd 
