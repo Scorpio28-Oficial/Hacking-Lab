@@ -9,14 +9,14 @@ echo -e "\e[1;30m
 echo -e ""
 echo -e ""
 echo -e ""
-echo -e "\e[1;30m┌══════════════════════════┐
-█\e[1;32m INSTALLATION OF PACKAGES \e[1;30m█
-└══════════════════════════┘
+echo -e "\e[1;30m┌═══════════════════════════════════════════┐
+█\e[1;32m COMENZANDO CON LA INSTALACIÓN DE PAQUETES \e[1;30m█
+└═══════════════════════════════════════════┘
 
 
-\e[1;30m┌══════════════════════════════┐
-█\e[1;32m UPDATING DATA IN PACKAGES... \e[1;30m█
-└══════════════════════════════┘\e[0m"
+\e[1;30m┌══════════════════════════┐
+█\e[1;32m ACTUALIZANDO PAQUETES... \e[1;30m█
+└══════════════════════════┘\e[0m"
 echo -e ""
 pkg update
 pkg upgrade
@@ -442,9 +442,9 @@ pkg install -y pip
 pkg install -y pip2
 pkg install -y pip3
 cd $HOME
-echo -e "\e[1;30m┌═════════════════════════════┐
-█\e[1;32m BEGINNING TOOL INSTALLATION \e[1;30m█
-└═════════════════════════════┘
+echo -e "\e[1;30m┌═══════════════════════════════════════════┐
+█\e[1;32m COMENZANDO LA INSTALACIÓN DE HERRAMIENTAS \e[1;30m█
+└═══════════════════════════════════════════┘
 
 
 \e[1;30m┌═════════════┐
@@ -1339,7 +1339,7 @@ echo -e "\e[1;30m║\e[1;32m            III             I                I  IPI 
 sleep 0.1
 echo -e "\e[1;30m║\e[1;32m             II       \e[1;30m[\e[1;31m+\e[1;30m] \e[1;37mHacking \e[1;30m[\e[1;31m+\e[1;30m]\e[1;32m        D   .    \e[1;30m║\e[1;32m"
 sleep 0.1
-echo -e "\e[1;30m║\e[1;32m             I            \e[1;33mEthical\e[1;32m                     \e[1;30m║\e[1;32m"
+echo -e "\e[1;30m║\e[1;32m             I             \e[1;33mÉtico\e[1;32m                      \e[1;30m║\e[1;32m"
 sleep 0.1
 echo -e "\e[1;30m║\e[1;32m                                                      \e[1;30m║\e[1;32m"
 sleep 0.1
@@ -1356,9 +1356,12 @@ read -s -p $'\e[1;30m┃\n└═>>>\e[1;37m ●\e[1;32m ' pass
 if [[ \$pass == $password && \$user == $username ]]; then
 echo -e "\e[1;32m\e[0m"
 echo -e "\e[1;32m\e[0m"
-sleep 0.5
-echo -e "\e[1;32m[\e[1;37m██████████████████████████████████\e[1;32m]" | pv -qL 45
-echo -e "\e[1;30m\n            LOADING..."
+sleep 2
+echo -e ""
+echo -e "\e[1;30m┌══════════════════════════════════┐"
+echo -e "█ \e[1;32m████████████████████████████████ \e[1;30m█ 100%" |pv -qL 45
+echo -e "└══════════════════════════════════┘"
+echo -e ""
 clear
 echo -e ""
 sleep 0.5
