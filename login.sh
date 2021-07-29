@@ -1275,6 +1275,31 @@ apt install python
 apt install python2
 pip2 install colorama
 chmod +x main_linux.py
+cd $HOME
+echo -e "
+\e[1;30m┌════════════════┐
+█\e[1;32m PhoneInfoga... \e[1;30m█
+└════════════════┘\e[0m"
+echo -e ""
+pkg install -y python
+pip install --upgrade pip
+git clone https://github.com/Scorpio28-Official/PhoneInfoga
+cd PhoneInfoga
+mv config.example.py config.py
+python -m pip install -r requirements.txt
+cd $HOME
+echo -e "
+\e[1;30m┌═════════════════════┐
+█\e[1;32m Optiva-Framework... \e[1;30m█
+└═════════════════════┘\e[0m"
+echo -e ""
+pkg install -y python2
+pip2 install --upgrade pip
+git clone https://github.com/Scorpio28-Official/Optiva-Framework
+cd Optiva-Framework
+chmod 777 installer.sh
+echo -e ""
+echo -e ""
 echo -e ""
 echo -e "
 \e[1;30m┌═══════════════════════════════════════┐
