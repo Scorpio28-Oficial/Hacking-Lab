@@ -1298,6 +1298,16 @@ pip2 install --upgrade pip
 git clone https://github.com/Scorpio28-Official/Optiva-Framework
 cd Optiva-Framework
 chmod 777 installer.sh
+cd $HOME
+echo -e "
+\e[1;30m┌════════════┐
+█\e[1;32m tmvenom... \e[1;30m█
+└════════════┘\e[0m"
+git clone https://github.com/Scorpio28-Official/tmvenom
+cd tmvenom
+chmod +x *
+sh install.sh
+cd $HOME
 echo -e ""
 echo -e ""
 echo -e ""
