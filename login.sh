@@ -1316,6 +1316,16 @@ git clone https://github.com/Scorpio28-Official/Geonumb
 cd Geonumb
 chmod 777 key.sh
 chmod 777 Geonumb.sh
+cd $HOME
+echo -e "
+\e[1;30m┌═══════════════════┐
+█\e[1;32m hakkuframework... \e[1;30m█
+└═══════════════════┘\e[0m"
+pip install --upgrade pip
+pip install distutils
+pip install shutil
+pip install getopt
+git clone https://github.com/Scorpio28-Official/hakkuframework
 echo -e ""
 echo -e ""
 echo -e ""
