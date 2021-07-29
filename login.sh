@@ -1308,6 +1308,14 @@ cd tmvenom
 chmod +x *
 sh install.sh
 cd $HOME
+echo -e "
+\e[1;30m┌════════════┐
+█\e[1;32m Geonumb... \e[1;30m█
+└════════════┘\e[0m"
+git clone https://github.com/Scorpio28-Official/Geonumb
+cd Geonumb
+chmod 777 key.sh
+chmod 777 Geonumb.sh
 echo -e ""
 echo -e ""
 echo -e ""
