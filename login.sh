@@ -8,23 +8,25 @@ echo -e "\e[1;30m
 
 └══━━━━━━━━━━━━━━━━━━━━━━━━══┘\e[0m"
 echo -e ""
+sleep 0.1
 echo -e ""
 echo -e ""
-sleep 1
+sleep 0.5
 echo -e "\e[1;30m┌═══════════════════════════════════════┐
 █\e[1;32m COMENZANDO LA INSTALACIÓN DE PAQUETES \e[1;30m█
 └═══════════════════════════════════════┘\e[0m"
 echo -e ""
+sleep 1
 echo -e ""
 echo -e ""
-sleep 2
+sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════════════┐
 █\e[1;32m ACTUALIZANDO PAQUETES... \e[1;30m█
 └══════════════════════════┘\e[0m"
 echo -e ""
 pkg update
-pkg upgrade
+pkg upgrade -y
 echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m PYTHON... \e[1;30m█
@@ -1313,7 +1315,7 @@ echo -e "
 \e[1;30m┌════════════┐
 █\e[1;32m tmvenom... \e[1;30m█
 └════════════┘\e[0m"
-git clone https://github.com/Scorpio28-Official/tmvenom
+git clone https://github.com/Scorpio28-Official/tmvenom
 cd tmvenom
 chmod +x *
 sh install.sh
