@@ -1,20 +1,26 @@
 #!/bim/bash
+sleep 0.5
 echo -e "\e[1;30m
-┌══━━━━━━━━━━━━━━━━━━━━━━━━━━━━══┐\e[1;32m
+┌══━━━━━━━━━━━━━━━━━━━━━━━━══┐\e[1;32m
 
-         S C O R P I O 2 8    
-       Informatic in Termux©\e[1;30m
+      S C O R P I O 2 8    
+    Informatic in Termux©\e[1;30m
 
-└══━━━━━━━━━━━━━━━━━━━━━━━━━━━━══┘\e[0m"
+└══━━━━━━━━━━━━━━━━━━━━━━━━══┘\e[0m"
 echo -e ""
+sleep 1
 echo -e ""
 echo -e ""
 sleep 0.5
-echo -e "\e[1;30m┌═══════════════════════════════════════════┐
-█\e[1;32m COMENZANDO CON LA INSTALACIÓN DE PAQUETES \e[1;30m█
-└═══════════════════════════════════════════┘
-
-
+echo -e "\e[1;30m┌═══════════════════════════════════════┐
+█\e[1;32m COMENZANDO LA INSTALACIÓN DE PAQUETES \e[1;30m█
+└═══════════════════════════════════════┘\e[0m"
+echo -e ""
+sleep 1
+echo -e ""
+echo -e ""
+sleep 0.5
+echo -e "
 \e[1;30m┌══════════════════════════┐
 █\e[1;32m ACTUALIZANDO PAQUETES... \e[1;30m█
 └══════════════════════════┘\e[0m"
@@ -449,18 +455,24 @@ echo -e "
 █\e[1;32m INSTALACIÓN DE PAQUETES TERMINADO \e[1;30m█
 └═══════════════════════════════════┘\e[0m"
 echo -e ""
+sleep 2
 echo -e ""
 echo -e ""
+echo -e ""
+echo -e ""
+clear
+sleep 0.5
+echo -e ""
+echo -e "\e[1;30m┌════════════════════════════════════════┐
+█\e[1;32m COMENZANDO INSTALACIÓN DE HERRAMIENTAS \e[1;30m█
+└════════════════════════════════════════┘\e[0m"
+echo -e ""
+sleep 2
 echo -e ""
 echo -e ""
 sleep 0.5
-echo -e ""
 cd $HOME
-echo -e "\e[1;30m┌═══════════════════════════════════════════┐
-█\e[1;32m COMENZANDO LA INSTALACIÓN DE HERRAMIENTAS \e[1;30m█
-└═══════════════════════════════════════════┘
-
-
+echo -e "
 \e[1;30m┌═════════════┐
 █\e[1;32m CamPhish... \e[1;30m█
 └═════════════┘\e[0m"
