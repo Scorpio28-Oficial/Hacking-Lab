@@ -1212,15 +1212,6 @@ git clone https://github.com/Scorpio28-Official/FBTOOL
 cd FBTOOL
 cd $HOME
 echo -e "
-\e[1;30m┌═══════════┐
-█\e[1;32m Scylla... \e[1;30m█
-└═══════════┘\e[0m"
-echo -e ""
-git clone https://www.github.com/Scorpio28-Official/Scylla
-cd Scylla
-python3 -m pip install -r requirments.txt
-cd $HOME
-echo -e "
 \e[1;30m┌══════════════┐
 █\e[1;32m LordPhish... \e[1;30m█
 └══════════════┘\e[0m"
