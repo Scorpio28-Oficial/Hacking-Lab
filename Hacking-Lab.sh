@@ -29,40 +29,9 @@ while :
 do
 Hacking-Lab
 echo -e -n "${negro}
-             ┌═════════════════════════════┐
-      ┌══════█ ${verde}ELIJA UNA OPCIÓN Y DE ENTER ${negro}█══════┐
-      █      └═════════════════════════════┘      █
-      █                                           █
-┌═══════════════════┐                   ┌═════════════════┐
-█ [${verde}1${negro}] ${blanco}CIBERPATRULLA ${negro}█                   █ [${verde}11${negro}] ${blanco}WELEAKINFO ${negro}█
-└═══════════════════┘                   └═════════════════┘
-┌════════════════┐                      ┌═══════════════┐
-█ [${verde}2${negro}] ${blanco}DUCKDUCKGO ${negro}█                      █ [${verde}12${negro}] ${blanco}LEAKPEEK ${negro}█
-└════════════════┘                      └═══════════════┘
-┌═══════════════════════════════┐       ┌═══════════════┐
-█ [${verde}3${negro}] ${blanco}NUMERO DE TELEFONO GLOBAL ${negro}█       █ [${verde}13${negro}] ${blanco}RSLOOKUP ${negro}█
-└═══════════════════════════════┘       └═══════════════┘
-┌═════════════════════════┐             ┌═══════════════┐
-█ [${verde}4${negro}] ${blanco}NOMBRES DE USUARIOS ${negro}█             █ [${verde}14${negro}] ${blanco}SNUSBASE ${negro}█
-└═════════════════════════┘             └═══════════════┘
-┌═══════════════════════════════┐       ┌═════════════════════┐
-█ [${verde}5${negro}] ${blanco}EVALUACIÓN Y CERTIFICADOS ${negro}█       █ [${verde}15${negro}] ${blanco}LEAKEDSOURERCE ${negro}█
-└═══════════════════════════════┘       └═════════════════════┘
-┌═════════════┐                         ┌══════════════════┐
-█ [${verde}6${negro}] ${blanco}LEAK SX ${negro}█                         █ [${verde}16${negro}] ${blanco}LEAK-LOOKUP ${negro}█
-└═════════════┘                         └══════════════════┘
-┌════════════════════┐                  ┌════════════════════┐
-█ [${verde}7${negro}] ${blanco}INTELIGENCIA X ${negro}█                  █ [${verde}17${negro}] ${blanco}BREACHCHECHER ${negro}█
-└════════════════════┘                  └════════════════════┘
-┌═══════════┐                           ┌═════════════════════┐
-█ [${verde}8${negro}] ${blanco}spyse ${negro}█                           █ [${verde}18${negro}] ${blanco}HAVEIBEENPWNED ${negro}█
-└═══════════┘                           └═════════════════════┘
-┌══════════════════┐                    ┌════════════════════┐
-█ [${verde}9${negro}] ${blanco}VIGILANTE PW ${negro}█                    █ [${verde}19${negro}] ${blanco}BLACKKYTETECH ${negro}█
-└══════════════════┘                    └════════════════════┘
-┌════════════════┐                      ┌══════════════┐
-█ [${verde}10${negro}] ${blanco}LEAKCHECK ${negro}█                      █ [${verde}20${negro}] ${blanco}OSINTFW ${negro}█
-└════════════════┘                      └══════════════┘
+┌═════════════════════════════┐
+█ ${verde}INSTALAR PAQUETES ${negro}█
+└═════════════════════════════┘
 ┃
 ┃
 └═>>> ${verde}"
