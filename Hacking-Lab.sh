@@ -6,31 +6,28 @@
 #
 # VARIABLES
 #
-source $HOME/Osint/Colors.sh
+source $HOME/Hacking-Lab/Colors.sh
 #
 #
 # FUNCIONES
 #
-function Osint {
+function Hacking-Lab {
 	time.sleep 3
 	clear
 sleep 0.5
 echo -e ""
 echo -e "${verde}
-${verde}╔██████╗ ███████╗██╗${negro}███╗   ██╗████████╗
-${verde}██╔═══██╗██╔════╝██║${negro}████╗  ██║╚══██╔══╝
-${verde}██║   ██║███████╗██║${negro}██╔██╗ ██║   ██║   
-${verde}██║   ██║╚════██║██║${negro}██║╚██╗██║   ██║   
-${verde}╚██████╔╝███████║██║${negro}██║ ╚████║   ██║   
-${verde} ╚═════╝ ╚══════╝╚═╝${negro}╚═╝  ╚═══╝   ╚═╝ WEB  
-${negro} ==============${verde}(${blanco}Scorpio28${verde})${negro}==============${verde}"
+${verde}█░▒█ █▀▀█ █▀▀ █░█ ░▀░ █▀▀▄ █▀▀▀${negro} ░░ █░░░ █▀▀█ █▀▀▄
+${verde}█▀▀█ █▄▄█ █░░ █▀▄ ▀█▀ █░░█ █░▀█${negro} ▀▀ █░░░ █▄▄█ █▀▀▄
+${verde}█░▒█ ▀░░▀ ▀▀▀ ▀░▀ ▀▀▀ ▀░░▀ ▀▀▀▀${negro} ░░ █▄▄█ ▀░░▀ ▀▀▀░
+${verde}"
 }
 #
 # CÓDIGO
 #
 while :
 do
-Osint
+Hacking-Lab
 echo -e -n "${negro}
              ┌═════════════════════════════┐
       ┌══════█ ${verde}ELIJA UNA OPCIÓN Y DE ENTER ${negro}█══════┐
@@ -69,9 +66,9 @@ echo -e -n "${negro}
 ┃
 ┃
 └═>>> ${verde}"
-read -r Opcion_Osint
+read -r Opcion_Hacking-Lab
 
-[ "$Opcion_Osint" == "1" ]||[ "$Opcion_Osint" == "2" ]||[ "$Opcion_Osint" == "3" ]||[ "$Opcion_Osint" == "4" ]||[ "$Opcion_Osint" == "5" ]||[ "$Opcion_Osint" == "6" ]||[ "$Opcion_Osint" == "7" ]||[ "$Opcion_Osint" == "8" ]||[ "$Opcion_Osint" == "9" ]||[ "$Opcion_Osint" == "10" ]||[ "$Opcion_Osint" == "11" ]||[ "$Opcion_Osint" == "12" ]||[ "$Opcion_Osint" == "13" ]||[ "$Opcion_Osint" == "14" ]||[ "$Opcion_Osint" == "15" ]||[ "$Opcion_Osint" == "16" ]||[ "$Opcion_Osint" == "17" ]||[ "$Opcion_Osint" == "18" ]||[ "$Opcion_Osint" == "19" ]||[ "$Opcion_Osint" == "20" ] && break
+[ "$Opcion_Hacking-Lab" == "1" ]||[ "$Opcion_Hacking-Lab" == "2" ]||[ "$Opcion_Hacking-Lab" == "3" ]||[ "$Opcion_Hacking-Lab" == "4" ]||[ "$Opcion_Hacking-Lab" == "5" ] && break
 
 echo -e "${rojo}
 ┌═════════════════════┐
@@ -98,7 +95,7 @@ elif [[ $option == 4 || $option == 04 ]]; then
 server="twitter"
 start1
 
-elif [[ $option == 99 ]]; then
+elif [[ $option == 5 ]]; then
 esac
 
 while :
@@ -130,7 +127,7 @@ done
 
 case $Opcion_Reiniciar in
 	1)
-		source $HOME/Osint/Osint.sh
+		source $HOME/Hacking-Lab/Hacking-Lab.sh
 		;;
 	2)
 echo -e "${negro}
