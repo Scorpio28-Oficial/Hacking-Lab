@@ -47,7 +47,6 @@ echo -e -n "\e[1;30m
 ┃
 ┃
 └═>>> \e[1;32m"
-read -r Opcion_Hacking-Lab
 
 [ "$Opcion_Hacking-Lab" == "1" ]||[ "$Opcion_Hacking-Lab" == "2" ]||[ "$Opcion_Hacking-Lab" == "3" ]||[ "$Opcion_Hacking-Lab" == "4" ]||[ "$Opcion_Hacking-Lab" == "5" ] && break
 
