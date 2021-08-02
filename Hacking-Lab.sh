@@ -67,14 +67,17 @@ start1
 
 elif [[ $option == 5 ]]; then
 exit 1
+esac
 
-else
+while :
+do
 printf "\e[1;31m
 ┌═════════════════════┐
 █ \e[1;32m¡OPCIÓN INCORRECTA! \e[1;31m█
 └═════════════════════┘
 \e[1;36m"
 sleep 1
+done
 
 while :
 do
