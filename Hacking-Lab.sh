@@ -27,7 +27,6 @@ echo -e "
 #
 while :
 do
-Hacking-Lab
 echo -e -n "\e[1;30m
 ┌══════════════════════════════════┐
 █ \e[1;30m(\e[1;32m1\e[1;30m) \e[1;37mINSTALAR PAQUETES            \e[1;30m█
@@ -47,7 +46,9 @@ echo -e -n "\e[1;30m
 ┃
 ┃
 └═>>> \e[1;32m"
-read -r Hacking-Lab
+read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Escoge una Opcion: \e[0m\en' option
+
+
 if [[ $option == 1 || $option == 01 ]]; then
 server="bash Paks.sh"
 start1
@@ -66,12 +67,20 @@ start1
 
 elif [[ $option == 5 ]]; then
 exit 1
-echo -e "\e[1;31m
+
+else
+printf "\e[1;31m
 ┌═════════════════════┐
 █ \e[1;32m¡OPCIÓN INCORRECTA! \e[1;31m█
 └═════════════════════┘
 \e[1;36m"
-sleep 0.5
+sleep 1
+clear
+menu
+fi
+}
+
+stop() {
 done
 esac
 
