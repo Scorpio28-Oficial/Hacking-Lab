@@ -110,10 +110,4 @@ case $Opcion_Reiniciar in
 		source $HOME/Hacking-Lab/Hacking-Lab.sh
 		;;
 	2)
-echo -e "\e[1;30m
-┌════════════════════════════════┐
-█ \e[1;32mPARA USAR NUEVAMENTE EL SCRIPT\e[1;30m █
-█ \e[1;32mEJECUTE EL COMANDO${blanco} ./Osint.sh  \e[1;30m█
-└════════════════════════════════┘
-\e[1;32m"
 esac
