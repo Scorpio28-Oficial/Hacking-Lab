@@ -28,13 +28,25 @@ ${verde}"
 while :
 do
 Hacking-Lab
-echo -e -n "${negro}
-┌═════════════════════════════┐
-█ ${verde}INSTALAR PAQUETES ${negro}█
-└═════════════════════════════┘
+echo -e -n "\e[1;30m
+┌══════════════════════════════════┐
+█ \e[1;30m(\e[1;32m1\e[1;30m) \e[1;37mINSTALAR PAQUETES            \e[1;30m█
+└══════════════════════════════════┘
+┌══════════════════════════════════┐
+█ \e[1;30m(\e[1;32m2\e[1;30m) \e[1;37mINSTALAR HERRAMIENTAS        \e[1;30m█
+└══════════════════════════════════┘
+┌══════════════════════════════════┐
+█ \e[1;30m(\e[1;32m3\e[1;30m) \e[1;37mINSTALAR BANNER MAS LOGIN    \e[1;30m█
+└══════════════════════════════════┘
+┌══════════════════════════════════┐
+█ \e[1;30m(\e[1;32m4\e[1;30m) \e[1;37mINSTALAR HACKIN-LAB COMPLETO \e[1;30m█
+└══════════════════════════════════┘
+┌══════════════════════════════════┐
+█ \e[1;30m(\e[1;32m5\e[1;30m) \e[1;37mCANCELAR INSTALACIÓN Y SALIR \e[1;30m█
+└══════════════════════════════════┘
 ┃
 ┃
-└═>>> ${verde}"
+└═>>> \e[1;32m"
 read -r Opcion_Hacking-Lab
 
 [ "$Opcion_Hacking-Lab" == "1" ]||[ "$Opcion_Hacking-Lab" == "2" ]||[ "$Opcion_Hacking-Lab" == "3" ]||[ "$Opcion_Hacking-Lab" == "4" ]||[ "$Opcion_Hacking-Lab" == "5" ] && break
@@ -65,6 +77,7 @@ server="twitter"
 start1
 
 elif [[ $option == 5 ]]; then
+exit 1
 esac
 
 while :
