@@ -20,6 +20,7 @@ sleep 1
 echo -e ""
 echo -e ""
 sleep 0.5
+cd $HOME
 echo -e "
 \e[1;30m┌══════════════════════════┐
 █\e[1;32m ACTUALIZANDO PAQUETES... \e[1;30m█
