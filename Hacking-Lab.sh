@@ -69,11 +69,11 @@ server="facebook"
 start1
 
 elif [[ $option == 3 || $option == 03 ]]; then
-server="snapchat"
+server="bash Bash-Login.sh"
 start1
 
 elif [[ $option == 4 || $option == 04 ]]; then
-server="twitter"
+server="bash login.sh"
 start1
 
 elif [[ $option == 5 ]]; then
