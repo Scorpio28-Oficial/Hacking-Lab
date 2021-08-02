@@ -76,7 +76,6 @@ printf "\e[1;31m
 \e[1;36m"
 sleep 1
 
-esac
 while :
 do
 echo -e -n "\e[1;30m
