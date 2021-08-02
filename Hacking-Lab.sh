@@ -51,11 +51,11 @@ read -r Opcion_Hacking-Lab
 
 [ "$Opcion_Hacking-Lab" == "1" ]||[ "$Opcion_Hacking-Lab" == "2" ]||[ "$Opcion_Hacking-Lab" == "3" ]||[ "$Opcion_Hacking-Lab" == "4" ]||[ "$Opcion_Hacking-Lab" == "5" ] && break
 
-echo -e "${rojo}
+echo -e "\e[1;31m
 ┌═════════════════════┐
-█ ${verde}¡OPCIÓN INCORRECTA! ${rojo}█
+█ \e[1;32m¡OPCIÓN INCORRECTA! \e[1;31m█
 └═════════════════════┘
-"${cyan}
+\e[1;36m"
 sleep 1.5
 done
 
@@ -82,27 +82,27 @@ esac
 
 while :
 do
-echo -e -n "${negro}
+echo -e -n "\e[1;30m
 ┌═════════════════════════════════════┐
-█ ${verde}¿QUIERES USAR NUEVAMENTE EL SCRIPT? ${negro}█
+█ \e[1;32m¿QUIERES USAR NUEVAMENTE EL SCRIPT? \e[1;30m█
 └═════════════════════════════════════┘
 
 ┌═══════════════┐
-█ [${verde}1${negro}] ┃   ${blanco}SI    ${negro}█
+█ [\e[1;32m1\e[1;30m] ┃   \e[1;37mSI    \e[1;30m█
 █═══════════════█
-█ [${verde}2${negro}] ┃   ${blanco}NO    ${negro}█
+█ [\e[1;32m2\e[1;30m] ┃   \e[1;37mNO    \e[1;30m█
 └═══════════════┘
 ┃
-└═>>> "${verde}
+└═>>> \e[1;32m"
 
 read -r Opcion_Reiniciar
 
 [ "$Opcion_Reiniciar" == "1" ]||[ "$Opcion_Reiniciar" == "2" ] && break
-echo -e "${rojo}
+echo -e "\e[1;31m
 ┌═════════════════════┐
-█ ${blanco}¡OPCIÓN INCORRECTA! ${rojo}█
+█ \e[1;37m¡OPCIÓN INCORRECTA! \e[1;31m█
 └═════════════════════┘
-"${verde}
+\e[1;32m"
 sleep 2
 clear
 done
@@ -112,10 +112,10 @@ case $Opcion_Reiniciar in
 		source $HOME/Hacking-Lab/Hacking-Lab.sh
 		;;
 	2)
-echo -e "${negro}
+echo -e "\e[1;30m
 ┌════════════════════════════════┐
-█ ${verde}PARA USAR NUEVAMENTE EL SCRIPT${negro} █
-█ ${verde}EJECUTE EL COMANDO${blanco} ./Osint.sh  ${negro}█
+█ \e[1;32mPARA USAR NUEVAMENTE EL SCRIPT\e[1;30m █
+█ \e[1;32mEJECUTE EL COMANDO${blanco} ./Osint.sh  \e[1;30m█
 └════════════════════════════════┘
-"${verde}
+\e[1;32m"
 esac
