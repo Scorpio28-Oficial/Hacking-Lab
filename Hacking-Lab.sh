@@ -2,18 +2,7 @@
 #
 # Created by: Scorpio28
 #
-# Osint
-#
-# VARIABLES
-#
-source $HOME/Hacking-Lab/Colors.sh
-#
-#
-# FUNCIONES
-#
-function Hacking-Lab {
-	time.sleep 3
-	clear
+time.sleep 0.5
 sleep 0.5
 echo -e ""
 echo -e "
@@ -21,12 +10,7 @@ echo -e "
 \e[1;32m█▀▀█ █▄▄█ █░░ █▀▄ ▀█▀ █░░█ █░▀█\e[1;30m ▀▀ █░░░ █▄▄█ █▀▀▄
 \e[1;32m█░▒█ ▀░░▀ ▀▀▀ ▀░▀ ▀▀▀ ▀░░▀ ▀▀▀▀\e[1;30m ░░ █▄▄█ ▀░░▀ ▀▀▀░
 \e[1;32m"
-}
-#
-# CÓDIGO
-#
-while :
-do
+echo -e ""
 echo -e -n "\e[1;30m
 ┌══════════════════════════════════┐
 █ \e[1;30m(\e[1;32m1\e[1;30m) \e[1;37mINSTALAR PAQUETES            \e[1;30m█
