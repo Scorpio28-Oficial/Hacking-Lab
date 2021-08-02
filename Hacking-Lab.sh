@@ -105,9 +105,5 @@ sleep 2
 clear
 done
 
-case $Opcion_Reiniciar in
-	1)
-		source $HOME/Hacking-Lab/Hacking-Lab.sh
-		;;
-	2)
+case $Opcion_Reiniciar
 esac
