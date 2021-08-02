@@ -2,6 +2,7 @@
 #
 # Created by: Scorpio28
 #
+cp Hacking-Lab.sh $PREFIX/etc
 time.sleep 0.5
 sleep 0.5
 echo -e ""
