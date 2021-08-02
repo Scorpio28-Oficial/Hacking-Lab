@@ -47,14 +47,7 @@ echo -e -n "\e[1;30m
 ┃
 ┃
 └═>>> \e[1;32m"
-echo -e "\e[1;31m
-┌═════════════════════┐
-█ \e[1;32m¡OPCIÓN INCORRECTA! \e[1;31m█
-└═════════════════════┘
-\e[1;36m"
-sleep 0.5
-done
-
+read -r Hacking-Lab
 if [[ $option == 1 || $option == 01 ]]; then
 server="bash Paks.sh"
 start1
@@ -73,6 +66,13 @@ start1
 
 elif [[ $option == 5 ]]; then
 exit 1
+echo -e "\e[1;31m
+┌═════════════════════┐
+█ \e[1;32m¡OPCIÓN INCORRECTA! \e[1;31m█
+└═════════════════════┘
+\e[1;36m"
+sleep 0.5
+done
 esac
 
 while :
