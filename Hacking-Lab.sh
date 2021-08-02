@@ -55,7 +55,7 @@ echo -e "\e[1;31m
 █ \e[1;32m¡OPCIÓN INCORRECTA! \e[1;31m█
 └═════════════════════┘
 \e[1;36m"
-sleep 1.5
+sleep 0.5
 done
 
 case $Opcion_Osint in
