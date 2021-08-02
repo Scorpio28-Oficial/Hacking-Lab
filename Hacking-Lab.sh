@@ -106,4 +106,3 @@ clear
 done
 
 case $Opcion_Reiniciar
-esac
