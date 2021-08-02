@@ -47,10 +47,7 @@ echo -e -n "\e[1;30m
 ┃
 ┃
 └═>>> \e[1;32m"
-
-[ "$Opcion_Hacking-Lab" == "1" ]||[ "$Opcion_Hacking-Lab" == "2" ]||[ "$Opcion_Hacking-Lab" == "3" ]||[ "$Opcion_Hacking-Lab" == "4" ]||[ "$Opcion_Hacking-Lab" == "5" ] && break
-
-echo -e "\e[1;31m
+echo -e "\e[1;30m
 ┌═════════════════════┐
 █ \e[1;32m¡OPCIÓN INCORRECTA! \e[1;31m█
 └═════════════════════┘
@@ -58,8 +55,7 @@ echo -e "\e[1;31m
 sleep 0.5
 done
 
-case $Opcion_Osint in
-	if [[ $option == 1 || $option == 01 ]]; then
+if [[ $option == 1 || $option == 01 ]]; then
 server="bash Paks.sh"
 start1
 
