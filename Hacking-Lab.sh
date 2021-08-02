@@ -67,7 +67,6 @@ start1
 
 elif [[ $option == 5 ]]; then
 exit 1
-esac
 
 while :
 do
