@@ -65,7 +65,7 @@ server="bash Paks.sh"
 start1
 
 elif [[ $option == 2 || $option == 02 ]]; then
-server="facebook"
+server="bash Tools.sh"
 start1
 
 elif [[ $option == 3 || $option == 03 ]]; then
