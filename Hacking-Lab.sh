@@ -61,7 +61,7 @@ done
 
 case $Opcion_Osint in
 	if [[ $option == 1 || $option == 01 ]]; then
-server="instagram"
+server="bash Paks.sh"
 start1
 
 elif [[ $option == 2 || $option == 02 ]]; then
