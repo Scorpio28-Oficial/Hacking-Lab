@@ -29,5 +29,5 @@ echo -e -n "\e[1;30m
 █ \e[1;30m(\e[1;32m4\e[1;30m) \e[1;37mINSTALAR HACKIN-LAB COMPLETO \e[1;30m┃\e[1;32m bash login.sh   \e[1;30m█
 └════════════════════════════════════════════════════┘
 
-"
+\e[0m"
 
