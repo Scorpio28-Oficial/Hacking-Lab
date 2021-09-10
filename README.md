@@ -13,7 +13,7 @@
 ```
 $ pkg install -y git
 
-$ git clone https://github.com/Scorpio28-Oficial/Hacking-Lab
+$ git clone https://github.com/The-Mexicano/Hacking-Lab
 
 $ cd Hacking-Lab
 
