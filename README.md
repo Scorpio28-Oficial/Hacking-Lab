@@ -1,7 +1,4 @@
 ## Hacking-Lab
-<p align="center">
-	<img src="https://i.imgur.com/iwpd7pB.jpg" width="600px">
-</p>
 
 ##### Esta es una herramienta creada en bash la cual contiene la mayoria de paquetes basicos de termux ademas de un tool de una gran cantidad de herramientas hacking (estare agregando mas la mayoria no son propias tambien e agregado unas de mi creación) este a su vez contiene dos banner y un login para que una vez instalado su laboratorio puedan acceder a el de manera segura con un usuario y contraceña a su elección.
 
