@@ -566,7 +566,7 @@ echo -e "
 █\e[1;32m Osint... \e[1;30m█
 └══════════┘\e[0m"
 echo -e ""
-git clone https://github.com/Scorpio28-Oficial/Osint
+git clone https://github.com/Scorpio28-Official/Osint
 cd Osint
 chmod 777 Osint.sh
 cd $HOME
@@ -575,7 +575,7 @@ echo -e "
 █\e[1;32m maskphish... \e[1;30m█
 └══════════════┘\e[0m"
 echo -e ""
-git clone https://github.com/Scorpio28-Oficial/maskphish
+git clone https://github.com/Scorpio28-Official/maskphish
 cd maskphish
 chmod 777 maskphish.sh
 cd $HOME
