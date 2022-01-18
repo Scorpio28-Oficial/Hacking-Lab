@@ -11,13 +11,11 @@ echo -e ""
 sleep 2
 echo -e ""
 echo -e ""
-clear
 sleep 1
 echo -e "\e[1;30m┌═══════════════════════════════════┐
 █\e[1;32m STARTING THE PACKAGE INSTALLATION \e[1;30m█
 └═══════════════════════════════════┘\e[0m"
 echo -e ""
-clear
 sleep 2
 echo -e ""
 echo -e ""
@@ -28,7 +26,6 @@ echo -e "
 █\e[1;32m UPDATING PACKAGES... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
-clear
 sleep 2
 pkg update
 pkg upgrade -y
@@ -453,7 +450,6 @@ echo -e ""
 pkg install -y pip
 pkg install -y pip2
 pkg install -y pip3
-clear
 sleep 1
 echo -e "
 \e[1;30m┌═══════════════════════════┐
@@ -465,7 +461,6 @@ echo -e ""
 echo -e ""
 echo -e ""
 echo -e ""
-clear
 sleep 1
 echo -e ""
 echo -e "\e[1;30m┌════════════════════════════┐
@@ -1335,8 +1330,6 @@ echo -e ""
 echo -e ""
 echo -e ""
 sleep 1
-
-sleep 2
 clear
 #!/bim/bash
 cp login.sh $PREFIX/etc
