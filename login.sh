@@ -8,15 +8,13 @@ echo -e "\e[1;30m
 
 └══━━━━━━━━━━━━━━━━━━━━━━━━══┘\e[0m"
 echo -e ""
-sleep 2
 echo -e ""
 echo -e ""
-sleep 1
+sleep 0.5
 echo -e "\e[1;30m┌═══════════════════════════════════┐
 █\e[1;32m STARTING THE PACKAGE INSTALLATION \e[1;30m█
 └═══════════════════════════════════┘\e[0m"
 echo -e ""
-sleep 2
 echo -e ""
 echo -e ""
 sleep 1
@@ -26,7 +24,7 @@ echo -e "
 █\e[1;32m UPDATING PACKAGES... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
-sleep 2
+sleep 0.5
 pkg update
 pkg upgrade -y
 echo -e "
@@ -456,18 +454,17 @@ echo -e "
 █\e[1;32m PACKAGE INSTALLATION DONE \e[1;30m█
 └═══════════════════════════┘\e[0m"
 echo -e ""
-sleep 2
+sleep 0.5
 echo -e ""
 echo -e ""
 echo -e ""
 echo -e ""
-sleep 1
 echo -e ""
 echo -e "\e[1;30m┌════════════════════════════┐
 █\e[1;32m STARTING TOOL INSTALLATION \e[1;30m█
 └════════════════════════════┘\e[0m"
 echo -e ""
-sleep 2
+sleep 0.5
 echo -e ""
 echo -e ""
 sleep 0.5
@@ -1329,8 +1326,8 @@ git clone https://github.com/Scorpio28-Official/hakkuframework
 echo -e ""
 echo -e ""
 echo -e ""
-sleep 1
 clear
+sleep 0.5
 #!/bim/bash
 cp login.sh $PREFIX/etc
 pip install colorama
@@ -1348,6 +1345,7 @@ apt install python
 pip install lolcat
 #!/data/data/com.termux/usr/bin/bash
 clear
+sleep 0.5
 echo -e "
 \e[1;32m█░▒█ █▀▀█ █▀▀ █░█ ░▀░ █▀▀▄ █▀▀▀\e[1;30m ░░ █░░░ █▀▀█ █▀▀▄
 \e[1;32m█▀▀█ █▄▄█ █░░ █▀▄ ▀█▀ █░░█ █░▀█\e[1;30m ▀▀ █░░░ █▄▄█ █▀▀▄
