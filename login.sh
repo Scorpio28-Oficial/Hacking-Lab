@@ -13,9 +13,9 @@ echo -e ""
 echo -e ""
 clear
 sleep 1
-echo -e "\e[1;30m┌═══════════════════════════════════════┐
-█\e[1;32m COMENZANDO LA INSTALACIÓN DE PAQUETES \e[1;30m█
-└═══════════════════════════════════════┘\e[0m"
+echo -e "\e[1;30m┌═══════════════════════════════════┐
+█\e[1;32m STARTING THE PACKAGE INSTALLATION \e[1;30m█
+└═══════════════════════════════════┘\e[0m"
 echo -e ""
 clear
 sleep 2
@@ -24,9 +24,9 @@ echo -e ""
 sleep 1
 cd $HOME
 echo -e "
-\e[1;30m┌══════════════════════════┐
-█\e[1;32m ACTUALIZANDO PAQUETES... \e[1;30m█
-└══════════════════════════┘\e[0m"
+\e[1;30m┌══════════════════════┐
+█\e[1;32m UPDATING PACKAGES... \e[1;30m█
+└══════════════════════┘\e[0m"
 echo -e ""
 clear
 sleep 2
@@ -456,9 +456,9 @@ pkg install -y pip3
 clear
 sleep 1
 echo -e "
-\e[1;30m┌═══════════════════════════════════┐
-█\e[1;32m INSTALACIÓN DE PAQUETES TERMINADO \e[1;30m█
-└═══════════════════════════════════┘\e[0m"
+\e[1;30m┌═══════════════════════════┐
+█\e[1;32m PACKAGE INSTALLATION DONE \e[1;30m█
+└═══════════════════════════┘\e[0m"
 echo -e ""
 sleep 2
 echo -e ""
@@ -468,9 +468,9 @@ echo -e ""
 clear
 sleep 1
 echo -e ""
-echo -e "\e[1;30m┌════════════════════════════════════════┐
-█\e[1;32m COMENZANDO INSTALACIÓN DE HERRAMIENTAS \e[1;30m█
-└════════════════════════════════════════┘\e[0m"
+echo -e "\e[1;30m┌════════════════════════════┐
+█\e[1;32m STARTING TOOL INSTALLATION \e[1;30m█
+└════════════════════════════┘\e[0m"
 echo -e ""
 sleep 2
 echo -e ""
@@ -1335,16 +1335,17 @@ echo -e ""
 echo -e ""
 echo -e ""
 sleep 1
-echo -e "
-\e[1;30m┌═══════════════════════════════════════┐
-█\e[1;32m INSTALACIÓN DE HERRAMIENTAS TERMINADO \e[1;30m█
-└═══════════════════════════════════════┘\e[0m"
-echo -e ""
+
 sleep 2
 clear
 #!/bim/bash
 cp login.sh $PREFIX/etc
 pip install colorama
+echo -e "
+\e[1;30m┌════════════════════════┐
+█\e[1;32m TOOL INSTALLATION DONE \e[1;30m█
+└════════════════════════┘\e[0m"
+echo -e ""
 pip2 install colorama
 pkg install pv
 pkg install cmatrix
