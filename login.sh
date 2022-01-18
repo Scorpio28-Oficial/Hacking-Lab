@@ -1,5 +1,5 @@
 #!/bim/bash
-sleep 0.5
+sleep 1
 echo -e "\e[1;30m
 ┌══━━━━━━━━━━━━━━━━━━━━━━━━══┐\e[1;32m
 
@@ -8,24 +8,28 @@ echo -e "\e[1;30m
 
 └══━━━━━━━━━━━━━━━━━━━━━━━━══┘\e[0m"
 echo -e ""
-sleep 0.1
+sleep 2
 echo -e ""
 echo -e ""
-sleep 0.5
+clear
+sleep 1
 echo -e "\e[1;30m┌═══════════════════════════════════════┐
 █\e[1;32m COMENZANDO LA INSTALACIÓN DE PAQUETES \e[1;30m█
 └═══════════════════════════════════════┘\e[0m"
 echo -e ""
+clear
+sleep 2
+echo -e ""
+echo -e ""
 sleep 1
-echo -e ""
-echo -e ""
-sleep 0.5
 cd $HOME
 echo -e "
 \e[1;30m┌══════════════════════════┐
 █\e[1;32m ACTUALIZANDO PAQUETES... \e[1;30m█
 └══════════════════════════┘\e[0m"
 echo -e ""
+clear
+sleep 2
 pkg update
 pkg upgrade -y
 echo -e "
@@ -450,7 +454,7 @@ pkg install -y pip
 pkg install -y pip2
 pkg install -y pip3
 clear
-sleep 0.5
+sleep 1
 echo -e "
 \e[1;30m┌═══════════════════════════════════┐
 █\e[1;32m INSTALACIÓN DE PAQUETES TERMINADO \e[1;30m█
@@ -462,7 +466,7 @@ echo -e ""
 echo -e ""
 echo -e ""
 clear
-sleep 0.5
+sleep 1
 echo -e ""
 echo -e "\e[1;30m┌════════════════════════════════════════┐
 █\e[1;32m COMENZANDO INSTALACIÓN DE HERRAMIENTAS \e[1;30m█
@@ -1330,10 +1334,13 @@ git clone https://github.com/Scorpio28-Official/hakkuframework
 echo -e ""
 echo -e ""
 echo -e ""
+sleep 1
 echo -e "
 \e[1;30m┌═══════════════════════════════════════┐
 █\e[1;32m INSTALACIÓN DE HERRAMIENTAS TERMINADO \e[1;30m█
 └═══════════════════════════════════════┘\e[0m"
+echo -e ""
+sleep 2
 clear
 #!/bim/bash
 cp login.sh $PREFIX/etc
@@ -1357,15 +1364,15 @@ echo -e "
 [+] Telegram: https://t.me/Informatic_in_Termux
 \e[0m"
 read -p $'\e[1;30m
-┌════════════════════════┐
-█\e[1;37m    ELIJA UN USUARIO    \e[1;30m█
-└════════════════════════┘
+┌═════════════════════┐
+█\e[1;37m    CHOOSE A USER    \e[1;30m█
+└═════════════════════┘
 ┃
 └═>>>\e[1;32m ' username
 read -p $'\e[1;30m
-┌════════════════════════┐
-█\e[1;37m  ELIJA UNA CONTRASEÑA  \e[1;30m█
-└════════════════════════┘
+┌══════════════════════┐
+█\e[1;37m  CHOOSE A PASSWORD   \e[1;30m█
+└══════════════════════┘
 ┃
 └═>>>\e[1;32m ' password
 cd 
@@ -1410,34 +1417,26 @@ echo -e "\e[1;30m║\e[1;32m            IIII           III. I            IIIEIII
 sleep 0.1
 echo -e "\e[1;30m║\e[1;32m            III             I                I  IPI   \e[1;30m║\e[1;32m"
 sleep 0.1
-echo -e "\e[1;30m║\e[1;32m             II       \e[1;30m[\e[1;31m+\e[1;30m] \e[1;37mHacking \e[1;30m[\e[1;31m+\e[1;30m]\e[1;32m        D   .    \e[1;30m║\e[1;32m"
+echo -e "\e[1;30m║\e[1;32m             II       \e[1;30m[\e[1;31m+\e[1;30m] \e[1;37mEthical \e[1;30m[\e[1;31m+\e[1;30m]\e[1;32m        D   .    \e[1;30m║\e[1;32m"
 sleep 0.1
-echo -e "\e[1;30m║\e[1;32m             I             \e[1;33mÉtico\e[1;32m                      \e[1;30m║\e[1;32m"
+echo -e "\e[1;30m║\e[1;32m             I            \e[1;33mHacking\e[1;32m                     \e[1;30m║\e[1;32m"
 sleep 0.1
 echo -e "\e[1;30m║\e[1;32m                                                      \e[1;30m║\e[1;32m"
 sleep 0.1
 echo -e "\e[1;30m║\e[1;32m \e[1;30m[\e[1;36m>\e[1;30m] \e[1;30m[\e[1;36m>\e[1;30m] \e[1;30m[\e[1;36m>\e[1;30m]\e[1;37m $(date) \e[1;30m[\e[1;36m<\e[1;30m] \e[1;30m[\e[1;36m<\e[1;30m] \e[1;30m[\e[1;36m<\e[1;30m] \e[1;30m║\e[1;32m"
 sleep 0.1
 echo -e "\e[1;30m╚══════════════════════════════════════════════════════╝"
-sleep 0.1
 echo -e ""
+sleep 0.1
+echo -e "\e[1;30m            >>>\e[1;32m ENTER YOUR ACCESS CODE\e[1;30m <<<\e[0m"
 read -p $'\e[1;30m
-┌════════════════════┐
-█\e[1;37m  >>>\e[1;32m USUARIO\e[1;37m <<<   \e[1;30m█
-└════════════════════┘\n┃\n└═>>> \e[1;37m●\e[1;32m ' user
-echo -e ''
-read -s -p $'\e[1;30m
-┌════════════════════┐
-█\e[1;37m >>>\e[1;32m CONTRASEÑA\e[1;37m <<< \e[1;30m█
-└════════════════════┘\n┃\n└═>>>\e[1;37m ●\e[1;32m ' pass
+\e[1;30m                   ●\e[1;32m USERNAME\e[1;30m :\e[0;30m ' user
+read -s -p $'\e[1;30m                   ●\e[1;32m PASSWORD\e[1;30m :\e[0;30m ' pass
 if [[ \$pass == $password && \$user == $username ]]; then
 echo -e "\e[1;32m\e[0m"
 echo -e "\e[1;32m\e[0m"
 sleep 1
-echo -e ''
-echo -e "\e[1;30m┌══════════════════════════════════┐"
-echo -e "█ \e[1;32m████████████████████████████████ \e[1;30m█ 100%" |pv -qL 45
-echo -e "└══════════════════════════════════┘"
+echo -e -n "\e[1;32m               A C C E S S I N G  . . ." |pv -qL 8
 echo -e ""
 sleep 2
 clear
@@ -1531,11 +1530,11 @@ shopt -s direxpand
 shopt -s compat43
 shopt -s compat32
 shopt -s lithist
-else
+else 1
 echo ""
 echo -e "\e[1;31m
 ┌═══════════════════════════════════════════════┐
-█ \e[1;32m>>>\e[1;37m ACCESO DENEGADO CERRANDO LA TERMINAL! \e[1;32m<<< \e[1;31m█
+█  \e[1;32m>>>\e[1;37m ACCESS DENIED CLOSING THE TERMINAL! \e[1;32m<<<  \e[1;31m█
 └═══════════════════════════════════════════════┘
 \e[0m"
 sleep 3
@@ -1545,6 +1544,6 @@ trap 2
 LOGIN
 echo -e "\e[1;30m
 ┌═══════════════════════════════════┐
-█ \e[1;32m      INSTALACIÓN CONCLUIDA\e[1;30m       █
-█ \e[1;32mCIERRE Y VUELVA ABRIR LA TERMINAL\e[1;30m █
+█ \e[1;32m      INSTALLATION COMPLETED\e[1;30m      █
+█  \e[1;32m CLOSE AND REOPEN THE TERMINAL\e[1;30m   █
 └═══════════════════════════════════┘\e[0m"
