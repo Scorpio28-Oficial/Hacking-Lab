@@ -619,7 +619,7 @@ echo -e "
 └══════════┘\e[0m"
 echo -e ""
 pkg install git python2
-git clone https://github.com/haijuga7/InfoG
+git clone https://github.com/Scorpio28-Official/InfoG
 cd InfoG
 pip2 install requests
 chmod 777 infog.py
