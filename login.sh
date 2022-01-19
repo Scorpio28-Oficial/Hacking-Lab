@@ -614,6 +614,17 @@ cd TinyURL
 chmod 777 tinyurl.sh
 cd $HOME
 echo -e "
+\e[1;30m┌══════════┐
+█\e[1;32m InfoG... \e[1;30m█
+└══════════┘\e[0m"
+echo -e ""
+pkg install git python2
+git clone https://github.com/haijuga7/InfoG
+cd InfoG
+pip2 install requests
+chmod 777 infog.py
+cd $HOME
+echo -e "
 \e[1;30m┌════════════┐
 █\e[1;32m distrux... \e[1;30m█
 └════════════┘\e[0m"
