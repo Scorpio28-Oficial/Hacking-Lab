@@ -488,6 +488,15 @@ git clone https://github.com/Scorpio28-Official/AIOPhish
 cd AIOPhish
 cd $HOME
 echo -e "
+\e[1;30m┌═════════════════════┐
+█\e[1;32m MIRROR-YASSANGE7... \e[1;30m█
+└═════════════════════┘\e[0m"
+echo -e ""
+git clone https://github.com/Scorpio28-Official/MIRROR-YASSANGE7
+cd MIRROR-YASSANGE7
+chmod 777 YASSANGE.sh
+cd $HOME
+echo -e "
 \e[1;30m┌════════════════┐
 █\e[1;32m DDos-Attack... \e[1;30m█
 └════════════════┘\e[0m"
