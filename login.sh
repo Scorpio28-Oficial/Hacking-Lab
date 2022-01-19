@@ -1287,17 +1287,6 @@ mv config.example.py config.py
 python -m pip install -r requirements.txt
 cd $HOME
 echo -e "
-\e[1;30m┌═════════════════════┐
-█\e[1;32m Optiva-Framework... \e[1;30m█
-└═════════════════════┘\e[0m"
-echo -e ""
-pkg install -y python2
-pip2 install --upgrade pip
-git clone https://github.com/Scorpio28-Official/Optiva-Framework
-cd Optiva-Framework
-chmod 777 installer.sh
-cd $HOME
-echo -e "
 \e[1;30m┌════════════┐
 █\e[1;32m tmvenom... \e[1;30m█
 └════════════┘\e[0m"
