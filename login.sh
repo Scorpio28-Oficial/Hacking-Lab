@@ -1,12 +1,13 @@
 #!/bim/bash
 sleep 1
 echo -e "\e[1;30m
-┌══━━━━━━━━━━━━━━━━━━━━━━━━══┐\e[1;32m
-
-      S C O R P I O 2 8    
-    Informatic in Termux©\e[1;30m
-
-└══━━━━━━━━━━━━━━━━━━━━━━━━══┘\e[0m"
+┌══━━━━━━━━━━━━━━━━━━━━━══┐\e[1;30m
+█                         █
+█   \e[1;32m S C O R P I O 2 8  \e[1;30m  █
+█                         █
+█\e[1;32m  Informatic in Termux©\e[1;30m  █
+█                         █
+└══━━━━━━━━━━━━━━━━━━━━━══┘\e[0m"
 echo -e ""
 echo -e ""
 echo -e ""
@@ -17,14 +18,14 @@ echo -e "\e[1;30m┌════════════════════
 echo -e ""
 echo -e ""
 echo -e ""
-sleep 1
+sleep 0.5
 cd $HOME
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m UPDATING PACKAGES... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
-sleep 0.5
+sleep 1
 pkg update
 pkg upgrade -y
 echo -e "
