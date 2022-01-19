@@ -1352,9 +1352,9 @@ echo -e "
 \e[1;32m█▀▀█ █▄▄█ █░░ █▀▄ ▀█▀ █░░█ █░▀█\e[1;30m ▀▀ █░░░ █▄▄█ █▀▀▄
 \e[1;32m█░▒█ ▀░░▀ ▀▀▀ ▀░▀ ▀▀▀ ▀░░▀ ▀▀▀▀\e[1;30m ░░ █▄▄█ ▀░░▀ ▀▀▀░
 \e[1;32m
-[+] Creator: Scorpio28
-[+] Team: Informatic in Termux
-[+] Telegram: https://t.me/Informatic_in_Termux
+[+] CREATOR: Scorpio28
+[+] TEAM: Informatic in Termux
+[+] TELEGRAM: https://t.me/Informatic_in_Termux
 \e[0m"
 read -p $'\e[1;30m
 ┌═════════════════════┐
