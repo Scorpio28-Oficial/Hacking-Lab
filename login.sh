@@ -1542,6 +1542,11 @@ echo -e "\e[1;31m
 sleep 3
 exit
 fi
+trap 2
+echo -e "\e[1;38m"
+alias bye="exit;exit"
+fish
+bye
 LOGIN
 echo -e "\e[1;30m
 ┌═══════════════════════════════════┐
