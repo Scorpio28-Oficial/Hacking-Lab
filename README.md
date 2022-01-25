@@ -34,7 +34,7 @@ default?
 
 Solo dan Enter
 
-###### Cuando ya lo ayan instalado ponen su usuario y dan enter enseguida su contraceña (para los que ignoran esto en la contraceña no se ve lo que se escribe solo se vusualiza el usuario pero la terminal lo lee) y da enter.
+###### Cuando ya lo ayan instalado ponen su usuario y dan enter enseguida su contraceña agan captura (al logearse en una nueva sección no visulizaran sus credenciales pero la terminal los lee) y da enter si colocan datos erroneos la terminal se cerrara.
 
 #### Informatic in Termux
 
