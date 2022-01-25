@@ -332,12 +332,23 @@ echo -e ""
 pkg install -y pip
 pkg install -y pip2
 pkg install -y pip3
+clear
+echo -e ""
+echo -e "
+\e[1;30m┌═══════════════════════┐
+█\e[1;32m OTHER DEPENDENCIES... \e[1;30m█
+└═══════════════════════┘\e[0m"
+echo -e ""
+yes|pkg install netcat-openbsd
+yes|pkg install mutt
+yes|pkg install nodejs
 sleep 1
 echo -e "
 \e[1;30m┌═══════════════════════════┐
 █\e[1;32m PACKAGE INSTALLATION DONE \e[1;30m█
 └═══════════════════════════┘\e[0m"
 echo -e ""
+clear
 sleep 0.5
 echo -e ""
 echo -e ""
