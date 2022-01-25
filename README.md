@@ -110,15 +110,12 @@ https://t.me/Informatic_in_Termux
 
 ###### EL CONOCIMIENTO ES LIBRE.
 
-#### Capturas
+#### Captura 1
 <p align="center">
-	<img src="https://i.imgur.com/YNDA9yH.jpg" width="600px">
+	<img src="https://i.imgur.com/a2MBQnW.jpeg" width="600px">
 </p>
 
+#### Captura 2
 <p align="center">
-	<img src="https://i.imgur.com/RQkeiv3.jpg" width="600px">
-</p>
-
-<p align="center">
-	<img src="https://i.imgur.com/TPwRnW0.jpg" width="600px">
+	<img src="https://i.imgur.com/W3O2e9O.jpeg" width="600px">
 </p>
