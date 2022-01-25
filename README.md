@@ -54,21 +54,6 @@ https://t.me/Informatic_in_Termux
 ###### Este pequeño Laboratorio fue creado con fines educativos e informaticos, cualquier uso es responsabilidad de quien lo utilice.
 
 
-###### EL CONOCIMIENTO ES LIBRE.
-
-
-```
-$ pkg install -y git
-
-$ git clone https://github.com/The-Mexicano/Hacking-Lab
-
-$ cd Hacking-Lab
-
-$ chmod 777 login.sh
-
-$ bash login.sh
-```
-
 ##### SI DURANTE LA INSTALACIO APARECE 
 
 [y/n]
