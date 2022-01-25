@@ -26,100 +26,97 @@ echo -e "
 └══════════════════════┘\e[0m"
 echo -e ""
 sleep 1
-pkg update
-pkg upgrade -y
+yes|pkg update && pkg upgrade
 echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m PYTHON... \e[1;30m█
 └═══════════┘\e[0m"
 echo -e ""
-pkg install python -y
-pkg install python2 -y
-pkg install python3 -y
+apt install -y python
 echo -e "
 \e[1;30m┌═════════┐
 █\e[1;32m JAVA... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install java
+pkg install -y java
 echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m NETCAT... \e[1;30m█
 └═══════════┘\e[0m"
 echo -e ""
-pkg install netcat
+apt install -y netcat
 echo -e "
 \e[1;30m┌═════════┐
 █\e[1;32m NMAP... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install nmap -y
+pkg install -y nmap
 echo -e "
 \e[1;30m┌═════════┐
 █\e[1;32m RUBY... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install ruby -y
+pkg install -y ruby
 echo -e "
 \e[1;30m┌════════┐
 █\e[1;32m PHP... \e[1;30m█
 └════════┘\e[0m"
 echo -e ""
-pkg install php -y
+pkg install -y php
 echo -e "
 \e[1;30m┌════════┐
 █\e[1;32m TOR... \e[1;30m█
 └════════┘\e[0m"
 echo -e ""
-pkg install tor -y
+pkg install -y tor
 echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m SQLMAP... \e[1;30m█
 └═══════════┘\e[0m"
 echo -e ""
-pkg install sqlmap
+pkg install -y sqlmap
 echo -e "
 \e[1;30m┌════════════┐
 █\e[1;32m OPENSSH... \e[1;30m█
 └════════════┘\e[0m"
 echo -e ""
-pkg install openssh -y
+pkg install -y openssh
 echo -e "
 \e[1;30m┌════════════┐
 █\e[1;32m OPENSSL... \e[1;30m█
 └════════════┘\e[0m"
 echo -e ""
-pkg install openssl -y
+pkg install -y openssl
 echo -e "
 \e[1;30m┌═════════┐
 █\e[1;32m CURL... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install curl -y
+pkg install -y curl
 echo -e "
 \e[1;30m┌═════════┐
 █\e[1;32m PERL... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install perl
+pkg install -y perl
 echo -e "
 \e[1;30m┌═════════┐
 █\e[1;32m HOST... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install host
+pkg install -y host
 echo -e "
 \e[1;30m┌═════════┐
 █\e[1;32m HELP... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install help -y
+pkg install -y help
 echo -e "
 \e[1;30m┌══════════┐
 █\e[1;32m HYDRA... \e[1;30m█
 └══════════┘\e[0m"
 echo -e ""
-pkg install hydra
+pkg install -y hydra
 echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m SHODAN... \e[1;30m█
@@ -133,55 +130,55 @@ echo -e "
 █\e[1;32m WGET... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install wget -y
+pkg install -y wget
 echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m WGETRC... \e[1;30m█
 └═══════════┘\e[0m"
 echo -e ""
-pkg install wgetrc -y
+pkg install -y wgetrc
 echo -e "
 \e[1;30m┌══════════┐
 █\e[1;32m CLANG... \e[1;30m█
 └══════════┘\e[0m"
 echo -e ""
-pkg install clang -y
+pkg install -y clang
 echo -e "
 \e[1;30m┌══════════════┐
 █\e[1;32m WIRESHARK... \e[1;30m█
 └══════════════┘\e[0m"
 echo -e ""
-pkg install wireshark -y
+pkg install -y wireshark
 echo -e "
 \e[1;30m┌═══════┐
 █\e[1;32m PV... \e[1;30m█
 └═══════┘\e[0m"
 echo -e ""
-pkg install pv
+pkg install -y pv
 echo -e "
 \e[1;30m┌════════┐
 █\e[1;32m DEV... \e[1;30m█
 └════════┘\e[0m"
 echo -e ""
-pkg install dev -y
+pkg install -y dev
 echo -e "
 \e[1;30m┌═════════┐
 █\e[1;32m FISH... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install fish -y
+pkg install -y fish
 echo -e "
 \e[1;30m┌═════════┐
 █\e[1;32m BASH... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install bash -y
+pkg install -y bash
 echo -e "
 \e[1;30m┌═════════┐
 █\e[1;32m NANO... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
-pkg install nano -y
+pkg install -y nano
 echo -e "
 \e[1;30m┌════════┐
 █\e[1;32m W3M... \e[1;30m█
@@ -213,24 +210,6 @@ echo -e "
 echo -e ""
 pkg install tar -y
 echo -e "
-\e[1;30m┌════════┐
-█\e[1;32m ZIP... \e[1;30m█
-└════════┘\e[0m"
-echo -e ""
-pkg install zip -y
-echo -e "
-\e[1;30m┌══════════┐
-█\e[1;32m UNZIP... \e[1;30m█
-└══════════┘\e[0m"
-echo -e ""
-pkg install unzip -y
-echo -e "
-\e[1;30m┌═══════════┐
-█\e[1;32m GOOGLE... \e[1;30m█
-└═══════════┘\e[0m"
-echo -e ""
-pkg install google -y
-echo -e "
 \e[1;30m┌═════════┐
 █\e[1;32m SUDO... \e[1;30m█
 └═════════┘\e[0m"
@@ -243,24 +222,6 @@ echo -e "
 echo -e ""
 pkg install wcalc -y
 echo -e "
-\e[1;30m┌═════════┐
-█\e[1;32m BMON... \e[1;30m█
-└═════════┘\e[0m"
-echo -e ""
-pkg install bmon -y
-echo -e "
-\e[1;30m┌════════┐
-█\e[1;32m VPN... \e[1;30m█
-└════════┘\e[0m"
-echo -e ""
-pkg install vpn -y
-echo -e "
-\e[1;30m┌══════════┐
-█\e[1;32m UNRAR... \e[1;30m█
-└══════════┘\e[0m"
-echo -e ""
-pkg install unrar -y
-echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m TOILET... \e[1;30m█
 └═══════════┘\e[0m"
@@ -272,18 +233,6 @@ echo -e "
 └══════════════┘\e[0m"
 echo -e ""
 pkg install net-tools -y
-echo -e "
-\e[1;30m┌═══════════┐
-█\e[1;32m GOLANG... \e[1;30m█
-└═══════════┘\e[0m"
-echo -e ""
-pkg install golang -y
-echo -e "
-\e[1;30m┌═══════════════┐
-█\e[1;32m MACCHANGER... \e[1;30m█
-└═══════════════┘\e[0m"
-echo -e ""
-pkg install macchanger -y
 echo -e "
 \e[1;30m┌════════════┐
 █\e[1;32m CMATRIX... \e[1;30m█
@@ -309,12 +258,6 @@ echo -e "
 echo -e ""
 pkg install vim -y
 echo -e "
-\e[1;30m┌══════════┐
-█\e[1;32m UNRAR... \e[1;30m█
-└══════════┘\e[0m"
-echo -e ""
-pkg install unrar -y
-echo -e "
 \e[1;30m┌═══════┐
 █\e[1;32m JQ... \e[1;30m█
 └═══════┘\e[0m"
@@ -332,12 +275,6 @@ echo -e "
 └══════════════┘\e[0m"
 echo -e ""
 pkg install -y coreutils
-echo -e "
-\e[1;30m┌═══════┐
-█\e[1;32m ET... \e[1;30m█
-└═══════┘\e[0m"
-echo -e ""
-pkg install -y et
 echo -e "
 \e[1;30m┌═══════════════┐
 █\e[1;32m GETH-UTILS... \e[1;30m█
@@ -357,66 +294,12 @@ echo -e "
 echo -e ""
 pkg install -y mailutils
 echo -e "
-\e[1;30m┌════════┐
-█\e[1;32m NIM... \e[1;30m█
-└════════┘\e[0m"
-echo -e ""
-pkg install -y nim
-echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m NODEJS... \e[1;30m█
 └═══════════┘\e[0m"
 echo -e ""
 pkg install -y nodejs
 pkg install -y nodejs-lts
-echo -e "
-\e[1;30m┌═════════════┐
-█\e[1;32m PARALLEL... \e[1;30m█
-└═════════════┘\e[0m"
-echo -e ""
-pkg install -y parallel
-echo -e "
-\e[1;30m┌═══════════┐
-█\e[1;32m REMIND... \e[1;30m█
-└═══════════┘\e[0m"
-echo -e ""
-pkg install -y remind
-echo -e "
-\e[1;30m┌═══════════════┐
-█\e[1;32m TERMUX -AM... \e[1;30m█
-└═══════════════┘\e[0m"
-echo -e ""
-pkg install -y termux-am
-echo -e "
-\e[1;30m┌══════════════════┐
-█\e[1;32m TERMUX -TOOLS... \e[1;30m█
-└══════════════════┘\e[0m"
-echo -e ""
-pkg install -y termux-tools
-echo -e "
-\e[1;30m┌══════════════════┐
-█\e[1;32m TERMUX -TOOLS... \e[1;30m█
-└══════════════════┘\e[0m"
-echo -e ""
-pkg install -y dwm
-echo -e "
-\e[1;30m┌═════════┐
-█\e[1;32m FROM... \e[1;30m█
-└═════════┘\e[0m"
-echo -e ""
-pkg install -y from
-echo -e "
-\e[1;30m┌════════┐
-█\e[1;32m THE... \e[1;30m█
-└════════┘\e[0m"
-echo -e ""
-pkg install -y the
-echo -e "
-\e[1;30m┌════════┐
-█\e[1;32m NMH... \e[1;30m█
-└════════┘\e[0m"
-echo -e ""
-pkg install -y nmh
 echo -e "
 \e[1;30m┌══════════════════┐
 █\e[1;32m UNSTABLE-REPO... \e[1;30m█
