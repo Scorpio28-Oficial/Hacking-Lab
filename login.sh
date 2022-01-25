@@ -34,12 +34,6 @@ echo -e "
 echo -e ""
 apt install -y python
 echo -e "
-\e[1;30m┌═════════┐
-█\e[1;32m JAVA... \e[1;30m█
-└═════════┘\e[0m"
-echo -e ""
-pkg install -y java
-echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m NETCAT... \e[1;30m█
 └═══════════┘\e[0m"
@@ -100,24 +94,6 @@ echo -e "
 echo -e ""
 pkg install -y perl
 echo -e "
-\e[1;30m┌═════════┐
-█\e[1;32m HOST... \e[1;30m█
-└═════════┘\e[0m"
-echo -e ""
-pkg install -y host
-echo -e "
-\e[1;30m┌═════════┐
-█\e[1;32m HELP... \e[1;30m█
-└═════════┘\e[0m"
-echo -e ""
-pkg install -y help
-echo -e "
-\e[1;30m┌══════════┐
-█\e[1;32m HYDRA... \e[1;30m█
-└══════════┘\e[0m"
-echo -e ""
-pkg install -y hydra
-echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m SHODAN... \e[1;30m█
 └═══════════┘\e[0m"
@@ -132,35 +108,17 @@ echo -e "
 echo -e ""
 pkg install -y wget
 echo -e "
-\e[1;30m┌═══════════┐
-█\e[1;32m WGETRC... \e[1;30m█
-└═══════════┘\e[0m"
-echo -e ""
-pkg install -y wgetrc
-echo -e "
 \e[1;30m┌══════════┐
 █\e[1;32m CLANG... \e[1;30m█
 └══════════┘\e[0m"
 echo -e ""
 pkg install -y clang
 echo -e "
-\e[1;30m┌══════════════┐
-█\e[1;32m WIRESHARK... \e[1;30m█
-└══════════════┘\e[0m"
-echo -e ""
-pkg install -y wireshark
-echo -e "
 \e[1;30m┌═══════┐
 █\e[1;32m PV... \e[1;30m█
 └═══════┘\e[0m"
 echo -e ""
 pkg install -y pv
-echo -e "
-\e[1;30m┌════════┐
-█\e[1;32m DEV... \e[1;30m█
-└════════┘\e[0m"
-echo -e ""
-pkg install -y dev
 echo -e "
 \e[1;30m┌═════════┐
 █\e[1;32m FISH... \e[1;30m█
@@ -186,12 +144,6 @@ echo -e "
 echo -e ""
 pkg install w3m -y
 echo -e "
-\e[1;30m┌══════════┐
-█\e[1;32m HAVIJ... \e[1;30m█
-└══════════┘\e[0m"
-echo -e ""
-pkg install havij -y
-echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m FIGLET... \e[1;30m█
 └═══════════┘\e[0m"
@@ -209,12 +161,6 @@ echo -e "
 └════════┘\e[0m"
 echo -e ""
 pkg install tar -y
-echo -e "
-\e[1;30m┌═════════┐
-█\e[1;32m SUDO... \e[1;30m█
-└═════════┘\e[0m"
-echo -e ""
-pkg install sudo -y
 echo -e "
 \e[1;30m┌══════════┐
 █\e[1;32m WCALC... \e[1;30m█
@@ -331,8 +277,7 @@ echo -e "
 echo -e ""
 pkg install -y pip
 pkg install -y pip2
-pkg install -y pip3
-clear
+pkg install -y pip
 echo -e ""
 echo -e "
 \e[1;30m┌═══════════════════════┐
@@ -348,7 +293,6 @@ echo -e "
 █\e[1;32m PACKAGE INSTALLATION DONE \e[1;30m█
 └═══════════════════════════┘\e[0m"
 echo -e ""
-clear
 sleep 0.5
 echo -e ""
 echo -e ""
