@@ -58,19 +58,6 @@ https://t.me/Informatic_in_Termux
 
 ###### EL CONOCIMIENTO ES LIBRE.
 
-#### Capturas
-<p align="center">
-	<img src="https://i.imgur.com/YNDA9yH.jpg" width="600px">
-</p>
-
-<p align="center">
-	<img src="https://i.imgur.com/RQkeiv3.jpg" width="600px">
-</p>
-
-<p align="center">
-	<img src="https://i.imgur.com/TPwRnW0.jpg" width="600px">
-</p>
-
 
 ```
 $ pkg install -y git
