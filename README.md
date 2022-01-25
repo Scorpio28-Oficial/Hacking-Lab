@@ -58,7 +58,7 @@ Esto para que no se vea de manera nativa y se vea cool y abran sus dos dedos en 
 
 Ho! Una vez que seleccionen More activan la casilla que dice (Keep screen on) esto para que mientras permanezcan en la terminal (termux) no se les apague la pantalla.
 
-#### Captura 1
+#### Capturas
 <p align="center">
 	<img src="https://i.imgur.com/a2MBQnW.jpeg" width="600px">
 </p>
