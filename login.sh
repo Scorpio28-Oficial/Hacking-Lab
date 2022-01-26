@@ -1039,6 +1039,14 @@ git clone https://github.com/Scorpio28-Official/hakkuframework
 cd hakkuframework
 chmod +x *
 cd $HOME
+echo -e "
+\e[1;30m┌═════════════┐
+█\e[1;32m ShodanTH... \e[1;30m█
+└═════════════┘\e[0m"
+git clone https://github.com/Scorpio28-Official/ShodanTH
+cd ShodanTH
+chmod +x *
+cd $HOME
 echo -e ""
 echo -e ""
 echo -e ""
