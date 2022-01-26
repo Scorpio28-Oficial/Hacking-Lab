@@ -18,14 +18,13 @@ echo -e "\e[1;30m┌════════════════════
 echo -e ""
 echo -e ""
 echo -e ""
-sleep 0.5
 cd $HOME
+sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m UPDATING PACKAGES... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
-sleep 1
 yes|pkg update && pkg upgrade
 echo -e "
 \e[1;30m┌══════════════════════┐
