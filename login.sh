@@ -142,104 +142,61 @@ echo -e "
 █\e[1;32m W3M... \e[1;30m█
 └════════┘\e[0m"
 echo -e ""
-pkg install w3m -y
+pkg install -y w3m
 echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m FIGLET... \e[1;30m█
 └═══════════┘\e[0m"
 echo -e ""
-pkg install figlet -y
+pkg install -y figlet
 echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m COWSAY... \e[1;30m█
 └═══════════┘\e[0m"
 echo -e ""
-pkg install cowsay -y
-echo -e "
-\e[1;30m┌════════┐
-█\e[1;32m TAR... \e[1;30m█
-└════════┘\e[0m"
-echo -e ""
-pkg install tar -y
+pkg install -y cowsay
 echo -e "
 \e[1;30m┌══════════┐
 █\e[1;32m WCALC... \e[1;30m█
 └══════════┘\e[0m"
 echo -e ""
-pkg install wcalc -y
+pkg install -y wcalc
 echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m TOILET... \e[1;30m█
 └═══════════┘\e[0m"
 echo -e ""
-pkg install toilet -y
+pkg install -y toilet
 echo -e "
 \e[1;30m┌══════════════┐
 █\e[1;32m NET-TOOLS... \e[1;30m█
 └══════════════┘\e[0m"
 echo -e ""
-pkg install net-tools -y
+pkg install -y net-tools
 echo -e "
 \e[1;30m┌════════════┐
 █\e[1;32m CMATRIX... \e[1;30m█
 └════════════┘\e[0m"
 echo -e ""
-pkg install cmatrix -y
-echo -e "
-\e[1;30m┌═══════════┐
-█\e[1;32m TOILET... \e[1;30m█
-└═══════════┘\e[0m"
-echo -e ""
-pkg install toilet -y
+pkg install -y cmatrix
 echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m LOLCAT... \e[1;30m█
 └═══════════┘\e[0m"
 echo -e ""
-pkg install lolcat -y
+pkg install -y lolcat
 echo -e "
 \e[1;30m┌════════┐
 █\e[1;32m VIM... \e[1;30m█
 └════════┘\e[0m"
 echo -e ""
-pkg install vim -y
+pkg install -y vim
 echo -e "
 \e[1;30m┌═══════┐
 █\e[1;32m JQ... \e[1;30m█
 └═══════┘\e[0m"
 echo -e ""
-pkg insnall jq -y
-echo -e "
-\e[1;30m┌═════════════┐
-█\e[1;32m BINUTILS... \e[1;30m█
-└═════════════┘\e[0m"
-echo -e ""
-pkg install -y binutils
-echo -e "
-\e[1;30m┌══════════════┐
-█\e[1;32m COREUTILS... \e[1;30m█
-└══════════════┘\e[0m"
-echo -e ""
-pkg install -y coreutils
-echo -e "
-\e[1;30m┌═══════════════┐
-█\e[1;32m GETH-UTILS... \e[1;30m█
-└═══════════════┘\e[0m"
-echo -e ""
-pkg install -y geth-utils
-echo -e "
-\e[1;30m┌═══════════════════┐
-█\e[1;32m GRAPHICSMAGICK... \e[1;30m█
-└═══════════════════┘\e[0m"
-echo -e ""
-pkg install -y graphicsmagick
-echo -e "
-\e[1;30m┌══════════════┐
-█\e[1;32m MAILUTILS... \e[1;30m█
-└══════════════┘\e[0m"
-echo -e ""
-pkg install -y mailutils
-echo -e "
+pkg insnall -y jq
 \e[1;30m┌═══════════┐
 █\e[1;32m NODEJS... \e[1;30m█
 └═══════════┘\e[0m"
@@ -247,37 +204,11 @@ echo -e ""
 pkg install -y nodejs
 pkg install -y nodejs-lts
 echo -e "
-\e[1;30m┌══════════════════┐
-█\e[1;32m UNSTABLE-REPO... \e[1;30m█
-└══════════════════┘\e[0m"
-echo -e ""
-pkg install -y unstable-repo
-echo -e "
-\e[1;30m┌══════════════┐
-█\e[1;32m ROOT-REPO... \e[1;30m█
-└══════════════┘\e[0m"
-echo -e ""
-pkg install -y root-repo
-echo -e "
-\e[1;30m┌══════════════┐
-█\e[1;32m TERMSHARK... \e[1;30m█
-└══════════════┘\e[0m"
-echo -e ""
-pkg install -y termshark
-echo -e "
 \e[1;30m┌═════════┐
 █\e[1;32m GREP... \e[1;30m█
 └═════════┘\e[0m"
 echo -e ""
 pkg install -y grep
-echo -e "
-\e[1;30m┌════════┐
-█\e[1;32m PIP... \e[1;30m█
-└════════┘\e[0m"
-echo -e ""
-pkg install -y pip
-pkg install -y pip2
-pkg install -y pip
 echo -e ""
 echo -e "
 \e[1;30m┌═══════════════════════┐
@@ -287,23 +218,22 @@ echo -e ""
 yes|pkg install netcat-openbsd
 yes|pkg install mutt
 yes|pkg install nodejs
-sleep 1
+echo -e ""
+echo -e ""
+echo -e ""
+sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════════════┐
 █\e[1;32m PACKAGE INSTALLATION DONE \e[1;30m█
 └═══════════════════════════┘\e[0m"
 echo -e ""
+clear
 sleep 0.5
-echo -e ""
-echo -e ""
-echo -e ""
-echo -e ""
 echo -e ""
 echo -e "\e[1;30m┌════════════════════════════┐
 █\e[1;32m STARTING TOOL INSTALLATION \e[1;30m█
 └════════════════════════════┘\e[0m"
 echo -e ""
-sleep 0.5
 echo -e ""
 echo -e ""
 sleep 0.5
