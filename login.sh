@@ -218,6 +218,7 @@ echo -e ""
 yes|pkg install netcat-openbsd
 yes|pkg install mutt
 yes|pkg install nodejs
+apt-get install -y espeak
 echo -e ""
 echo -e ""
 echo -e ""
@@ -230,9 +231,9 @@ echo -e ""
 clear
 sleep 0.5
 echo -e ""
-echo -e "\e[1;30m┌════════════════════════════┐
-█\e[1;32m STARTING TOOL INSTALLATION \e[1;30m█
-└════════════════════════════┘\e[0m"
+echo -e "\e[1;30m┌═════════════════════════┐
+█\e[1;32m  STARTING CLONING TOOLS \e[1;30m█
+└═════════════════════════┘\e[0m"
 echo -e ""
 echo -e ""
 echo -e ""
@@ -245,7 +246,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/CamPhish
 cd CamPhish
-chmod 711 camphish.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═════════════┐
@@ -254,6 +255,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/AIOPhish
 cd AIOPhish
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═════════════════════┐
@@ -262,7 +264,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/MIRROR-YASSANGE7
 cd MIRROR-YASSANGE7
-chmod 777 YASSANGE.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════════════┐
@@ -271,6 +273,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/DDos-Attack
 cd DDos-Attack
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════════════┐
@@ -279,7 +282,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/Email-Supplant
 cd Email-Supplant
-chmod 777 Email-Supplant.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════════┐
@@ -288,6 +291,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/EvilURL
 cd EvilURL
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════════┐
@@ -296,7 +300,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/Hack-Tools
 cd Hack-Tools
-chmod 777 Hack-Tools.py
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════════════┐
@@ -305,7 +309,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/ISPLocation
 cd ISPLocation
-chmod 777 ISPLocation.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════════┐
@@ -314,7 +318,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/NCSKiddie
 cd NCSKiddie
-chmod 777 ncskiddie.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════┐
@@ -324,7 +328,7 @@ echo -e ""
 pip install requests
 git clone https://github.com/Scorpio28-Official/SETSMS
 cd SETSMS
-chmod 711 SETSMS.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════┐
@@ -333,7 +337,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/Force
 cd Force
-chmod 777 Force.py
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════┐
@@ -342,7 +346,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/Osint
 cd Osint
-chmod 777 Osint.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════════┐
@@ -351,7 +355,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/maskphish
 cd maskphish
-chmod 777 maskphish.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════════════┐
@@ -360,18 +364,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/Live-Generator
 cd Live-Generator
-chmod 777 Live-Generator.py
-cd $HOME
-echo -e "
-\e[1;30m┌═══════════════┐
-█\e[1;32m FotoSploit... \e[1;30m█
-└═══════════════┘\e[0m"
-echo -e ""
-git clone https://github.com/Scorpio28-Official/FotoSploit
-cd FotoSploit
-chmod 777 install.sh
-bash install.sh
-y
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═════════════┐
@@ -380,6 +373,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/TecniDox
 cd TecniDox
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════════┐
@@ -388,7 +382,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/TinyURL
 cd TinyURL
-chmod 777 tinyurl.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════┐
@@ -398,8 +392,7 @@ echo -e ""
 pkg install git python2
 git clone https://github.com/Scorpio28-Official/InfoG
 cd InfoG
-pip2 install requests
-chmod 777 infog.py
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════════┐
@@ -408,7 +401,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/distrux
 cd distrux
-chmod 777 distrux.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═════════════┐
@@ -420,21 +413,13 @@ cd fsociety
 chmod +x *
 cd $HOME
 echo -e "
-\e[1;30m┌══════════════┐
-█\e[1;32m inshackle... \e[1;30m█
-└══════════════┘\e[0m"
-echo -e ""
-git clone https://github.com/Scorpio28-Official/inshackle
-cd inshackle
-cd $HOME
-echo -e "
 \e[1;30m┌═══════════┐
 █\e[1;32m koroni... \e[1;30m█
 └═══════════┘\e[0m"
 echo -e ""
 git clone https://github.com/Scorpio28-Official/koroni
 cd koroni
-chmod +x koroni
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════┐
@@ -443,27 +428,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/phonia
 cd phonia
-chmod 777 phonia.sh
-cd $HOME
-echo -e "
-\e[1;30m┌══════════════════┐
-█\e[1;32m santet-online... \e[1;30m█
-└══════════════════┘\e[0m"
-echo -e ""
-git clone https://github.com/Scorpio28-Official/santet-online
-cd santet-online
-python -m pip install -r requirements.txt
-cd $HOME
-echo -e "
-\e[1;30m┌═══════════┐
-█\e[1;32m sqlmap... \e[1;30m█
-└═══════════┘\e[0m"
-echo -e ""
-pkg install -y python
-pip install --upgrade pip
-pip install sqlmap
-git clone https://github.com/Scorpio28-Official/sqlmap
-cd sqlmap
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════════┐
@@ -472,6 +437,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/HiddenEye-Legacy
 cd HiddenEye
+chmod +x *
 pip install -r requirements.txt
 cd $HOME
 echo -e "
@@ -481,7 +447,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/RouterSploit
 cd RouterSploit
-chmod 777 RouterSploit
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════════════┐
@@ -490,7 +456,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/Link-Ngrok
 cd Link-Ngrok/
-chmod 777 Link-Ngrok.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════┐
@@ -499,18 +465,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/CMSeeK
 cd CMSeeK
-chmod 777 cmseek.py
-cd $HOME
-echo -e "
-\e[1;30m┌═══════════════════════┐
-█\e[1;32m Recreator-Phishing... \e[1;30m█
-└═══════════════════════┘\e[0m"
-echo -e ""
-git clone https://github.com/Scorpio28-Official/Recreator-Phishing
-cd Recreator-Phishing
-pkg install python
-pkg install wget
-python3 ServerInstall.py
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════┐
@@ -519,6 +474,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/hammer
 cd hammer
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════════════════┐
@@ -536,17 +492,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/DarkFly-Tool
 cd DarkFly-Tool
-chmod 777 install.py
-python2 install.py
-cd $HOME
-echo -e "
-\e[1;30m┌═════════════════┐
-█\e[1;32m SocialSploit... \e[1;30m█
-└═════════════════┘\e[0m"
-echo -e ""
-git clone https://github.com/Scorpio28-Official/SocialSploit
-cd SocialSploit
-bash install.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═════════┐
@@ -555,7 +501,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/ispy
 cd ispy
-chmod +x setup.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════┐
@@ -564,7 +510,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/beeth
 cd beeth
-chmod 711 beeth
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════┐
@@ -573,6 +519,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/6VIRUS
 cd 6VIRUS
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════════┐
@@ -581,7 +528,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/Ip-Attack
 cd Ip-Attack
-chmod +x requirement.sh ip-attack.py
+chmod +x *
 bash requirement.sh
 y
 cd $HOME
@@ -592,6 +539,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/Attaks-Ddos
 cd Attaks-Ddos
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════════┐
@@ -600,7 +548,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/BCHackTool
 cd BCHackTool
-chmod 777 bchacktool-termux.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════┐
@@ -609,7 +557,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/shark
 cd shark
-chmod 777 setup shark
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════┐
@@ -619,6 +567,7 @@ echo -e ""
 pip install requests
 git clone https://github.com/Scorpio28-Official/seeker
 cd seeker
+chmod +x *
 bash install.sh
 cd $HOME
 echo -e "
@@ -628,7 +577,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/EmailSpoofing
 cd EmailSpoofing
-chmod 711 EmailSpoofing.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═════════════┐
@@ -637,7 +586,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/WishFish
 cd WishFish
-chmod 777 copy.sh wishfish.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════┐
@@ -646,6 +595,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/shark
 cd JAR
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════════┐
@@ -654,7 +604,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/termux-msf
 cd termux-msf
-chmod 777 msf.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════┐
@@ -663,26 +613,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/tool07
 cd tool07 
-chmod +x * 
-cd $HOME
-echo -e "
-\e[1;30m┌══════════════════┐
-█\e[1;32m LittleBrother... \e[1;30m█
-└══════════════════┘\e[0m"
-echo -e ""
-git clone https://github.com/Scorpio28-Official/LittleBrother
-cd LittleBrother
-chmod 777 requirements.txt
-python3 -m pip install -r requirements.txt
-cd $HOME
-echo -e "
-\e[1;30m┌══════════════┐
-█\e[1;32m HiddenEye... \e[1;30m█
-└══════════════┘\e[0m"
-echo -e ""
-git clone https://github.com/Scorpio28-Official/HiddenEye-Legacy
-cd HiddenEye
-pip install -r requirements.txt
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════════┐
@@ -691,13 +622,15 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/PPPhish
 cd PPPhish
-chmod 777 pppshih.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════════┐
 █\e[1;32m zVirus-Gen... \e[1;30m█
 └═══════════════┘\e[0m"
 git clone https://github.com/Scorpio28-Official/zVirus-Gen
+cd zVirus-Gen
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═════════════┐
@@ -706,6 +639,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/UserScan
 cd UserScan
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════┐
@@ -714,6 +648,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/STP
 cd STP
+chmod +x *
 bash install-termux.sh
 cd $HOME
 echo -e "
@@ -723,7 +658,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/backdoor
 cd backdoor
-chmod 777 venom
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════┐
@@ -732,7 +667,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/XERXES
 cd XERXES
-chmod 777 xerxes.c
+chmod +x *
 gcc xerxes.c -o xerxes
 cd $HOME
 echo -e "
@@ -742,16 +677,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/URLSpoof
 cd URLSpoof
-chmod 777 urlspoof.sh
-cd $HOME
-echo -e "
-\e[1;30m┌════════════════┐
-█\e[1;32m SocialPhish... \e[1;30m█
-└════════════════┘\e[0m"
-echo -e ""
-git clone https://github.com/Scorpio28-Official/SocialPhish.git
-cd SocialPhish
-chmod +x socialphish.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════┐
@@ -760,7 +686,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/ltserv
 cd ltserv
-chmod 777 ltserv.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════════════┐
@@ -769,7 +695,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/EmailSpoofing
 cd EmailSpoofing
-chmod 711 EmailSpoofing.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════════┐
@@ -778,7 +704,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/DarkSMS
 cd DarkSMS
-chmod 777 darksms.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════════┐
@@ -787,6 +713,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/LordPhish
 cd LordPhish
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════┐
@@ -795,7 +722,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Oficial/quack
 cd quack
-chmod 777 quack.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════════┐
@@ -804,6 +731,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/Firecrack
 cd Firecrack
+chmod +x *
 pip2 install -r requirements.txt
 cd $HOME
 echo -e "
@@ -813,7 +741,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Oficial/iphunter
 cd iphunter
-chmod 777 setup.sh requirements.txt
+chmod +x *
 Bash setup.sh
 pip install -r requirements.txt
 cd $HOME
@@ -824,7 +752,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/weeman
 cd weeman
-chmod 777 weeman.py
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═════════┐
@@ -834,6 +762,7 @@ echo -e ""
 pip install --upgrade pip
 git clone https://github.com/Scorpio28-Official/vigo
 cd vigo
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════┐
@@ -851,7 +780,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/TempMail
 cd TempMail
-chmod 777 install.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════════┐
@@ -860,7 +789,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/Falsify
 cd Falsify
-chmod 777 install.sh
+chmod +x *
 ./install.sh
 cd $HOME
 echo -e "
@@ -871,7 +800,7 @@ echo -e ""
 pip install --upgrade pip
 git clone https://github.com/Scorpio28-Official/AresBomb
 cd AresBomb
-chmod 777 boom.py
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════════┐
@@ -881,7 +810,7 @@ echo -e ""
 pip install --upgrade pip
 git clone https://github.com/Scorpio28-Official/CamSearch
 cd CamSearch
-chmod 777 CamSearch.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════════┐
@@ -891,6 +820,7 @@ echo -e ""
 pip install --upgrade pip
 git clone https://github.com/Scorpio28-Official/EvilURL
 cd EvilURL
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═════════════┐
@@ -899,7 +829,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/ExifTool
 cd ExifTool
-chmod 711 install.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════┐
@@ -909,7 +839,7 @@ echo -e ""
 pip install --upgrade pip
 git clone https://github.com/Scorpio28-Official/TBomb.git
 cd TBomb
-chmod +x TBomb.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═════════════┐
@@ -923,8 +853,8 @@ pip install requests_futures
 python3 -m pip install --upgrade pip
 git clone https://github.com/Scorpio28-Official/sherlock
 cd sherlock
+chmod +x *
 python -m pip install -r requirements.txt
-chmod 777 sherlock
 cd $HOME
 echo -e "
 \e[1;30m┌══════════════════┐
@@ -933,6 +863,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/santet-online
 cd santet-online
+chmod +x *
 python -m pip install -r requirements.txt
 cd $HOME
 echo -e "
@@ -944,6 +875,7 @@ pkg install -y python
 pip install --upgrade pip
 git clone https://github.com/Scorpio28-Official/recon-ng
 cd recon-ng
+chmod +x *
 python -m pip install -r REQUIREMENTS
 cd $HOME
 echo -e "
@@ -953,7 +885,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/MyServer.git
 cd MyServer
-chmod +x install
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════════┐
@@ -967,6 +899,7 @@ apt install ruby -y
 gem install lolcat
 git clone https://github.com/Scorpio28-Official/insecam
 cd insecam
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═════════┐
@@ -978,6 +911,7 @@ git clone https://github.com/Scorpio28-Official/bsix
 pip2 solicitudes de instalación
 pip2 instalar mecanizar
 cd bsix
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═════════════════════┐
@@ -987,7 +921,7 @@ echo -e ""
 pip2 install --upgrade pip
 git clone https://github.com/Scorpio28-Official/Optiva-Framework
 cd Optiva-Framework
-chmod 777 installer.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════┐
@@ -996,6 +930,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/FBTOOL
 cd FBTOOL
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌══════════════┐
@@ -1004,6 +939,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/LordPhish.git
 cd LordPhish
+chmod +x *
 bash setup.sh
 cd $HOME
 echo -e "
@@ -1013,6 +949,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/scorpio28-Official/JAR
 cd JAR
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════┐
@@ -1030,6 +967,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/jager
 cd jager
+chmod +x *
 pip install -r requirements.txt
 cd $HOME
 echo -e "
@@ -1039,7 +977,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/Infectador-payload
 cd Infectador-payload
-chmod 777 Infectador-payload.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════════════┐
@@ -1048,7 +986,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/ScorpFishV2
 cd ScorpFishV2
-chmod 711 ScorFishTermux.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════════════┐
@@ -1057,10 +995,7 @@ echo -e "
 echo -e ""
 git clone https://github.com/Scorpio28-Official/PhoneSploit
 cd PhoneSploit
-apt install python
-apt install python2
-pip2 install colorama
-chmod +x main_linux.py
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌════════════════┐
@@ -1071,6 +1006,7 @@ pkg install -y python
 pip install --upgrade pip
 git clone https://github.com/Scorpio28-Official/PhoneInfoga
 cd PhoneInfoga
+chmod +x *
 mv config.example.py config.py
 python -m pip install -r requirements.txt
 cd $HOME
@@ -1089,8 +1025,7 @@ echo -e "
 └════════════┘\e[0m"
 git clone https://github.com/Scorpio28-Official/Geonumb
 cd Geonumb
-chmod 777 key.sh
-chmod 777 Geonumb.sh
+chmod +x *
 cd $HOME
 echo -e "
 \e[1;30m┌═══════════════════┐
@@ -1101,26 +1036,21 @@ pip install distutils
 pip install shutil
 pip install getopt
 git clone https://github.com/Scorpio28-Official/hakkuframework
+cd hakkuframework
+chmod +x *
+cd $HOME
 echo -e ""
 echo -e ""
 echo -e ""
-clear
-sleep 0.5
-#!/bim/bash
-cp login.sh $PREFIX/etc
-pip install colorama
+echo -e ""
 echo -e "
 \e[1;30m┌════════════════════════┐
 █\e[1;32m TOOL INSTALLATION DONE \e[1;30m█
 └════════════════════════┘\e[0m"
 echo -e ""
-pip2 install colorama
-pkg install pv
-pkg install cmatrix
-apt-get install -y ruby
-apt-get install -y espeak
-apt install python
-pip install lolcat
+sleep 0.5
+#!/bim/bash
+cp login.sh $PREFIX/etc
 #!/data/data/com.termux/usr/bin/bash
 clear
 sleep 0.5
