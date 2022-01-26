@@ -1043,12 +1043,13 @@ echo -e ""
 echo -e ""
 echo -e ""
 echo -e ""
+sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════════┐
 █\e[1;32m TOOL INSTALLATION DONE \e[1;30m█
 └════════════════════════┘\e[0m"
 echo -e ""
-sleep 0.5
+sleep 1
 #!/bim/bash
 cp login.sh $PREFIX/etc
 #!/data/data/com.termux/usr/bin/bash
