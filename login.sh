@@ -28,185 +28,185 @@ echo -e ""
 sleep 1
 yes|pkg update && pkg upgrade
 echo -e "
-\e[1;30m┌═══════════┐
-█\e[1;32m PYTHON... \e[1;30m█
-└═══════════┘\e[0m"
+\e[1;30m┌══════════════════════┐
+█\e[1;32m INSTALLING PYTHON... \e[1;30m█
+└══════════════════════┘\e[0m"
 echo -e ""
 apt install -y python
 echo -e "
-\e[1;30m┌═══════════┐
-█\e[1;32m NETCAT... \e[1;30m█
-└═══════════┘\e[0m"
+\e[1;30m┌══════════════════════┐
+█\e[1;32m INSTALLING NETCAT... \e[1;30m█
+└══════════════════════┘\e[0m"
 echo -e ""
 apt install -y netcat
 echo -e "
-\e[1;30m┌═════════┐
-█\e[1;32m NMAP... \e[1;30m█
-└═════════┘\e[0m"
+\e[1;30m┌════════════════════┐
+█\e[1;32m INSTALLING NMAP... \e[1;30m█
+└════════════════════┘\e[0m"
 echo -e ""
 pkg install -y nmap
 echo -e "
-\e[1;30m┌═════════┐
-█\e[1;32m RUBY... \e[1;30m█
-└═════════┘\e[0m"
+\e[1;30m┌════════════════════┐
+█\e[1;32m INSTALLING RUBY... \e[1;30m█
+└════════════════════┘\e[0m"
 echo -e ""
 pkg install -y ruby
 echo -e "
-\e[1;30m┌════════┐
-█\e[1;32m PHP... \e[1;30m█
-└════════┘\e[0m"
+\e[1;30m┌═══════════════════┐
+█\e[1;32m INSTALLING PHP... \e[1;30m█
+└═══════════════════┘\e[0m"
 echo -e ""
 pkg install -y php
 echo -e "
-\e[1;30m┌════════┐
-█\e[1;32m TOR... \e[1;30m█
-└════════┘\e[0m"
+\e[1;30m┌═══════════════════┐
+█\e[1;32m INSTALLING TOR... \e[1;30m█
+└═══════════════════┘\e[0m"
 echo -e ""
 pkg install -y tor
 echo -e "
-\e[1;30m┌═══════════┐
-█\e[1;32m SQLMAP... \e[1;30m█
-└═══════════┘\e[0m"
+\e[1;30m┌══════════════════════┐
+█\e[1;32m INSTALLING SQLMAP... \e[1;30m█
+└══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y sqlmap
 echo -e "
-\e[1;30m┌════════════┐
-█\e[1;32m OPENSSH... \e[1;30m█
-└════════════┘\e[0m"
+\e[1;30m┌═══════════════════════┐
+█\e[1;32m INSTALLING OPENSSH... \e[1;30m█
+└═══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y openssh
 echo -e "
-\e[1;30m┌════════════┐
-█\e[1;32m OPENSSL... \e[1;30m█
-└════════════┘\e[0m"
+\e[1;30m┌═══════════════════════┐
+█\e[1;32m INSTALLING OPENSSL... \e[1;30m█
+└═══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y openssl
 echo -e "
-\e[1;30m┌═════════┐
-█\e[1;32m CURL... \e[1;30m█
-└═════════┘\e[0m"
+\e[1;30m┌════════════════════┐
+█\e[1;32m INSTALLING CURL... \e[1;30m█
+└════════════════════┘\e[0m"
 echo -e ""
 pkg install -y curl
 echo -e "
-\e[1;30m┌═════════┐
-█\e[1;32m PERL... \e[1;30m█
-└═════════┘\e[0m"
+\e[1;30m┌════════════════════┐
+█\e[1;32m INSTALLING PERL... \e[1;30m█
+└════════════════════┘\e[0m"
 echo -e ""
 pkg install -y perl
 echo -e "
-\e[1;30m┌═══════════┐
-█\e[1;32m SHODAN... \e[1;30m█
-└═══════════┘\e[0m"
+\e[1;30m┌══════════════════════┐
+█\e[1;32m INSTALLING SHODAN... \e[1;30m█
+└══════════════════════┘\e[0m"
 echo -e ""
 pip install --upgrade pip
 easy_install shodan
 pip install shodan requests
 echo -e "
-\e[1;30m┌═════════┐
-█\e[1;32m WGET... \e[1;30m█
-└═════════┘\e[0m"
+\e[1;30m┌════════════════════┐
+█\e[1;32m INSTALLING WGET... \e[1;30m█
+└════════════════════┘\e[0m"
 echo -e ""
 pkg install -y wget
 echo -e "
-\e[1;30m┌══════════┐
-█\e[1;32m CLANG... \e[1;30m█
-└══════════┘\e[0m"
+\e[1;30m┌═════════════════════┐
+█\e[1;32m INSTALLING CLANG... \e[1;30m█
+└═════════════════════┘\e[0m"
 echo -e ""
 pkg install -y clang
 echo -e "
-\e[1;30m┌═══════┐
-█\e[1;32m PV... \e[1;30m█
-└═══════┘\e[0m"
+\e[1;30m┌══════════════════┐
+█\e[1;32m INSTALLING PV... \e[1;30m█
+└══════════════════┘\e[0m"
 echo -e ""
 pkg install -y pv
 echo -e "
-\e[1;30m┌═════════┐
-█\e[1;32m FISH... \e[1;30m█
-└═════════┘\e[0m"
+\e[1;30m┌════════════════════┐
+█\e[1;32m INSTALLING FISH... \e[1;30m█
+└════════════════════┘\e[0m"
 echo -e ""
 pkg install -y fish
 echo -e "
-\e[1;30m┌═════════┐
-█\e[1;32m BASH... \e[1;30m█
-└═════════┘\e[0m"
+\e[1;30m┌════════════════════┐
+█\e[1;32m INSTALLING BASH... \e[1;30m█
+└════════════════════┘\e[0m"
 echo -e ""
 pkg install -y bash
 echo -e "
-\e[1;30m┌═════════┐
-█\e[1;32m NANO... \e[1;30m█
-└═════════┘\e[0m"
+\e[1;30m┌════════════════════┐
+█\e[1;32m INSTALLING NANO... \e[1;30m█
+└════════════════════┘\e[0m"
 echo -e ""
 pkg install -y nano
 echo -e "
-\e[1;30m┌════════┐
-█\e[1;32m W3M... \e[1;30m█
-└════════┘\e[0m"
+\e[1;30m┌═══════════════════┐
+█\e[1;32m INSTALLING W3M... \e[1;30m█
+└═══════════════════┘\e[0m"
 echo -e ""
 pkg install -y w3m
 echo -e "
-\e[1;30m┌═══════════┐
-█\e[1;32m FIGLET... \e[1;30m█
-└═══════════┘\e[0m"
+\e[1;30m┌══════════════════════┐
+█\e[1;32m INSTALLING FIGLET... \e[1;30m█
+└══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y figlet
 echo -e "
-\e[1;30m┌═══════════┐
-█\e[1;32m COWSAY... \e[1;30m█
-└═══════════┘\e[0m"
+\e[1;30m┌══════════════════════┐
+█\e[1;32m INSTALLING COWSAY... \e[1;30m█
+└══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y cowsay
 echo -e "
-\e[1;30m┌══════════┐
-█\e[1;32m WCALC... \e[1;30m█
-└══════════┘\e[0m"
+\e[1;30m┌═════════════════════┐
+█\e[1;32m INSTALLING WCALC... \e[1;30m█
+└═════════════════════┘\e[0m"
 echo -e ""
 pkg install -y wcalc
 echo -e "
-\e[1;30m┌═══════════┐
-█\e[1;32m TOILET... \e[1;30m█
-└═══════════┘\e[0m"
+\e[1;30m┌══════════════════════┐
+█\e[1;32m INSTALLING TOILET... \e[1;30m█
+└══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y toilet
 echo -e "
-\e[1;30m┌══════════════┐
-█\e[1;32m NET-TOOLS... \e[1;30m█
-└══════════════┘\e[0m"
+\e[1;30m┌═════════════════════════┐
+█\e[1;32m INSTALLING NET-TOOLS... \e[1;30m█
+└═════════════════════════┘\e[0m"
 echo -e ""
 pkg install -y net-tools
 echo -e "
-\e[1;30m┌════════════┐
-█\e[1;32m CMATRIX... \e[1;30m█
-└════════════┘\e[0m"
+\e[1;30m┌═══════════════════════┐
+█\e[1;32m INSTALLING CMATRIX... \e[1;30m█
+└═══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y cmatrix
 echo -e "
-\e[1;30m┌═══════════┐
-█\e[1;32m LOLCAT... \e[1;30m█
-└═══════════┘\e[0m"
+\e[1;30m┌══════════════════════┐
+█\e[1;32m INSTALLING LOLCAT... \e[1;30m█
+└══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y lolcat
 echo -e "
-\e[1;30m┌════════┐
-█\e[1;32m VIM... \e[1;30m█
-└════════┘\e[0m"
+\e[1;30m┌═══════════════════┐
+█\e[1;32m INSTALLING VIM... \e[1;30m█
+└═══════════════════┘\e[0m"
 echo -e ""
 pkg install -y vim
 echo -e "
-\e[1;30m┌═══════┐
-█\e[1;32m JQ... \e[1;30m█
-└═══════┘\e[0m"
+\e[1;30m┌══════════════════┐
+█\e[1;32m INSTALLING JQ... \e[1;30m█
+└══════════════════┘\e[0m"
 echo -e ""
 pkg insnall -y jq
-\e[1;30m┌═══════════┐
-█\e[1;32m NODEJS... \e[1;30m█
-└═══════════┘\e[0m"
+\e[1;30m┌══════════════════════┐
+█\e[1;32m INSTALLING NODEJS... \e[1;30m█
+└══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y nodejs
 pkg install -y nodejs-lts
 echo -e "
-\e[1;30m┌═════════┐
-█\e[1;32m GREP... \e[1;30m█
-└═════════┘\e[0m"
+\e[1;30m┌════════════════════┐
+█\e[1;32m INSTALLING GREP... \e[1;30m█
+└════════════════════┘\e[0m"
 echo -e ""
 pkg install -y grep
 echo -e ""
