@@ -25,7 +25,7 @@ echo -e "
 █\e[1;32m UPDATING PACKAGES... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
-yes|pkg update && pkg upgrade
+apt update && pkg upgrade -y
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING PYTHON... \e[1;30m█
@@ -214,9 +214,9 @@ echo -e "
 █\e[1;32m OTHER DEPENDENCIES... \e[1;30m█
 └═══════════════════════┘\e[0m"
 echo -e ""
-yes|pkg install netcat-openbsd
-yes|pkg install mutt
-yes|pkg install nodejs
+yes | pkg install netcat-openbsd
+yes | pkg install mutt
+yes | pkg install nodejs
 apt-get install -y espeak
 echo -e ""
 echo -e ""
