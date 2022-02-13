@@ -27,8 +27,7 @@ echo -e "
 █\e[1;32m UPDATING PACKAGES... \e[1;30m█
 └══════════════════════┘\e[1;32m"
 echo -e ""
-apt update -y &> /dev//null
-pkg upgrade -y &> /dev//null
+apt update && pkg upgrade -y &> /dev//null
 sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════════┐
