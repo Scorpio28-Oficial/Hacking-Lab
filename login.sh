@@ -27,198 +27,198 @@ echo -e "
 █\e[1;32m UPDATING PACKAGES... \e[1;30m█
 └══════════════════════┘\e[1;32m"
 echo -e ""
-apt update && pkg upgrade -y &> /dev//null
+apt update && pkg upgrade -y
 sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING PYTHON... \e[1;30m█
 └══════════════════════┘\e[1;32m"
 echo -e ""
-apt install -y python &> /dev//null
+apt install -y python
 sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING NMAP... \e[1;30m█
 └════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y nmap &> /dev//null
+pkg install -y nmap
 sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING RUBY... \e[1;30m█
 └════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y ruby &> /dev//null
+pkg install -y ruby
 sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════┐
 █\e[1;32m INSTALLING PHP... \e[1;30m█
 └═══════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y php &> /dev//null
+pkg install -y php
 sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════┐
 █\e[1;32m INSTALLING TOR... \e[1;30m█
 └═══════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y tor &> /dev//null
+pkg install -y tor
 sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════════┐
 █\e[1;32m INSTALLING OPENSSH... \e[1;30m█
 └═══════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y openssh &> /dev//null
+pkg install -y openssh
 sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════════┐
 █\e[1;32m INSTALLING OPENSSL... \e[1;30m█
 └═══════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y openssl &> /dev//null
+pkg install -y openssl
 sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING CURL... \e[1;30m█
 └════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y curl &> /dev//null
+pkg install -y curl
 sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING PERL... \e[1;30m█
 └════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y perl &> /dev//null
+pkg install -y perl
 sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING SHODAN... \e[1;30m█
 └══════════════════════┘\e[1;32m"
 echo -e ""
-pip install --upgrade pip &> /dev//null
-easy_install shodan &> /dev//null
-pip install shodan requests &> /dev//null
+pip install --upgrade pip
+easy_install shodan
+pip install shodan requests
 sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING WGET... \e[1;30m█
 └════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y wget &> /dev//null
+pkg install -y wget
 sleep 0.5
 echo -e "
 \e[1;30m┌═════════════════════┐
 █\e[1;32m INSTALLING CLANG... \e[1;30m█
 └═════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y clang &> /dev//null
+pkg install -y clang
 sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════┐
 █\e[1;32m INSTALLING PV... \e[1;30m█
 └══════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y pv &> /dev//null
+pkg install -y pv
 sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING FISH... \e[1;30m█
 └════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y fish &> /dev//null
+pkg install -y fish
 sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING BASH... \e[1;30m█
 └════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y bash &> /dev//null
+pkg install -y bash
 sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING NANO... \e[1;30m█
 └════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y nano &> /dev//null
+pkg install -y nano
 sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════┐
 █\e[1;32m INSTALLING W3M... \e[1;30m█
 └═══════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y w3m &> /dev//null
+pkg install -y w3m
 sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING FIGLET... \e[1;30m█
 └══════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y figlet &> /dev//null
+pkg install -y figlet
 sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING COWSAY... \e[1;30m█
 └══════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y cowsay &> /dev//null
+pkg install -y cowsay
 sleep 0.5
 echo -e "
 \e[1;30m┌═════════════════════┐
 █\e[1;32m INSTALLING WCALC... \e[1;30m█
 └═════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y wcalc &> /dev//null
+pkg install -y wcalc
 sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING TOILET... \e[1;30m█
 └══════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y toilet &> /dev//null
+pkg install -y toilet
 sleep 0.5
 echo -e "
 \e[1;30m┌═════════════════════════┐
 █\e[1;32m INSTALLING NET-TOOLS... \e[1;30m█
 └═════════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y net-tools &> /dev//null
+pkg install -y net-tools
 sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════════┐
 █\e[1;32m INSTALLING CMATRIX... \e[1;30m█
 └═══════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y cmatrix &> /dev//null
+pkg install -y cmatrix
 sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════┐
 █\e[1;32m INSTALLING VIM... \e[1;30m█
 └═══════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y vim &> /dev//null
+pkg install -y vim
 sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════┐
 █\e[1;32m INSTALLING JQ... \e[1;30m█
 └══════════════════┘\e[1;32m"
 echo -e ""
-pkg insnall -y jq &> /dev//null
+pkg insnall -y jq
 sleep 0.5
 echo -e "\e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING NODEJS... \e[1;30m█
 └══════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y nodejs &> /dev//null
-pkg install -y nodejs-lts &> /dev//null
+pkg install -y nodejs
+pkg install -y nodejs-lts
 sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING GREP... \e[1;30m█
 └════════════════════┘\e[1;32m"
 echo -e ""
-pkg install -y grep &> /dev//null
+pkg install -y grep
 sleep 0.5
 echo -e ""
 echo -e "
@@ -226,10 +226,10 @@ echo -e "
 █\e[1;32m OTHER DEPENDENCIES... \e[1;30m█
 └═══════════════════════┘\e[1;32m"
 echo -e ""
-yes | pkg install netcat-openbsd &> /dev//null
-yes | pkg install mutt &> /dev//null
-yes | pkg install nodejs &> /dev//null
-apt-get install -y espeak &> /dev//null
+yes | pkg install netcat-openbsd
+yes | pkg install mutt
+yes | pkg install nodejs
+apt-get install -y espeak
 sleep 0.5
 echo -e ""
 echo -e ""
