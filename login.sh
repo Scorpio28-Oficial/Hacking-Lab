@@ -25,199 +25,182 @@ echo -e "
 █\e[1;32m UPDATING PACKAGES... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
-apt update && pkg upgrade -y
+apt update -y &> /dev//null
+pkg upgrade -y &> /dev//null
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING PYTHON... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
-apt install -y python
-echo -e "
-\e[1;30m┌══════════════════════┐
-█\e[1;32m INSTALLING NETCAT... \e[1;30m█
-└══════════════════════┘\e[0m"
-echo -e ""
-apt install -y netcat
+apt install -y python &> /dev//null
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING NMAP... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
-pkg install -y nmap
+pkg install -y nmap &> /dev//null
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING RUBY... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
-pkg install -y ruby
+pkg install -y ruby &> /dev//null
 echo -e "
 \e[1;30m┌═══════════════════┐
 █\e[1;32m INSTALLING PHP... \e[1;30m█
 └═══════════════════┘\e[0m"
 echo -e ""
-pkg install -y php
+pkg install -y php &> /dev//null
 echo -e "
 \e[1;30m┌═══════════════════┐
 █\e[1;32m INSTALLING TOR... \e[1;30m█
 └═══════════════════┘\e[0m"
 echo -e ""
-pkg install -y tor
-echo -e "
-\e[1;30m┌══════════════════════┐
-█\e[1;32m INSTALLING SQLMAP... \e[1;30m█
-└══════════════════════┘\e[0m"
-echo -e ""
-pkg install -y sqlmap
+pkg install -y tor &> /dev//null
 echo -e "
 \e[1;30m┌═══════════════════════┐
 █\e[1;32m INSTALLING OPENSSH... \e[1;30m█
 └═══════════════════════┘\e[0m"
 echo -e ""
-pkg install -y openssh
+pkg install -y openssh &> /dev//null
 echo -e "
 \e[1;30m┌═══════════════════════┐
 █\e[1;32m INSTALLING OPENSSL... \e[1;30m█
 └═══════════════════════┘\e[0m"
 echo -e ""
-pkg install -y openssl
+pkg install -y openssl &> /dev//null
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING CURL... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
-pkg install -y curl
+pkg install -y curl &> /dev//null
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING PERL... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
-pkg install -y perl
+pkg install -y perl &> /dev//null
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING SHODAN... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
-pip install --upgrade pip
-easy_install shodan
-pip install shodan requests
+pip install --upgrade pip &> /dev//null
+easy_install shodan &> /dev//null
+pip install shodan requests &> /dev//null
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING WGET... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
-pkg install -y wget
+pkg install -y wget &> /dev//null
 echo -e "
 \e[1;30m┌═════════════════════┐
 █\e[1;32m INSTALLING CLANG... \e[1;30m█
 └═════════════════════┘\e[0m"
 echo -e ""
-pkg install -y clang
+pkg install -y clang &> /dev//null
 echo -e "
 \e[1;30m┌══════════════════┐
 █\e[1;32m INSTALLING PV... \e[1;30m█
 └══════════════════┘\e[0m"
 echo -e ""
-pkg install -y pv
+pkg install -y pv &> /dev//null
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING FISH... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
-pkg install -y fish
+pkg install -y fish &> /dev//null
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING BASH... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
-pkg install -y bash
+pkg install -y bash &> /dev//null
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING NANO... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
-pkg install -y nano
+pkg install -y nano &> /dev//null
 echo -e "
 \e[1;30m┌═══════════════════┐
 █\e[1;32m INSTALLING W3M... \e[1;30m█
 └═══════════════════┘\e[0m"
 echo -e ""
-pkg install -y w3m
+pkg install -y w3m &> /dev//null
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING FIGLET... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
-pkg install -y figlet
+pkg install -y figlet &> /dev//null
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING COWSAY... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
-pkg install -y cowsay
+pkg install -y cowsay &> /dev//null
 echo -e "
 \e[1;30m┌═════════════════════┐
 █\e[1;32m INSTALLING WCALC... \e[1;30m█
 └═════════════════════┘\e[0m"
 echo -e ""
-pkg install -y wcalc
+pkg install -y wcalc &> /dev//null
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING TOILET... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
-pkg install -y toilet
+pkg install -y toilet &> /dev//null
 echo -e "
 \e[1;30m┌═════════════════════════┐
 █\e[1;32m INSTALLING NET-TOOLS... \e[1;30m█
 └═════════════════════════┘\e[0m"
 echo -e ""
-pkg install -y net-tools
+pkg install -y net-tools &> /dev//null
 echo -e "
 \e[1;30m┌═══════════════════════┐
 █\e[1;32m INSTALLING CMATRIX... \e[1;30m█
 └═══════════════════════┘\e[0m"
 echo -e ""
-pkg install -y cmatrix
-echo -e "
-\e[1;30m┌══════════════════════┐
-█\e[1;32m INSTALLING LOLCAT... \e[1;30m█
-└══════════════════════┘\e[0m"
-echo -e ""
-pkg install -y lolcat
+pkg install -y cmatrix &> /dev//null
 echo -e "
 \e[1;30m┌═══════════════════┐
 █\e[1;32m INSTALLING VIM... \e[1;30m█
 └═══════════════════┘\e[0m"
 echo -e ""
-pkg install -y vim
+pkg install -y vim &> /dev//null
 echo -e "
 \e[1;30m┌══════════════════┐
 █\e[1;32m INSTALLING JQ... \e[1;30m█
 └══════════════════┘\e[0m"
 echo -e ""
-pkg insnall -y jq
-\e[1;30m┌══════════════════════┐
+pkg insnall -y jq &> /dev//null
+echo -e "\e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING NODEJS... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
-pkg install -y nodejs
-pkg install -y nodejs-lts
+pkg install -y nodejs &> /dev//null
+pkg install -y nodejs-lts &> /dev//null
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING GREP... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
-pkg install -y grep
+pkg install -y grep &> /dev//null
 echo -e ""
 echo -e "
 \e[1;30m┌═══════════════════════┐
 █\e[1;32m OTHER DEPENDENCIES... \e[1;30m█
 └═══════════════════════┘\e[0m"
 echo -e ""
-yes | pkg install netcat-openbsd
-yes | pkg install mutt
-yes | pkg install nodejs
-apt-get install -y espeak
+yes | pkg install netcat-openbsd &> /dev//null
+yes | pkg install mutt &> /dev//null
+yes | pkg install nodejs &> /dev//null
+apt-get install -y espeak &> /dev//null
 echo -e ""
 echo -e ""
 echo -e ""
