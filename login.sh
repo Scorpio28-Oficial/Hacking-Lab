@@ -695,6 +695,11 @@ echo -e "
 └════════════════┘\e[1;32m"
 sleep 0.5
 echo -e ""
+https://github.com/Scorpio28-Official/termux-ruby
+cd termux-ruby
+chmod +x *
+bash ruby.sh
+cd $HOME
 git clone https://github.com/Scorpio28-Official/termux-msf
 cd termux-msf
 chmod 777 msf.sh
