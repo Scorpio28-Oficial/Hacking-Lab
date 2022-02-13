@@ -1203,21 +1203,6 @@ chmod +x *
 cd $HOME
 sleep 1
 echo -e "
-\e[1;30m┌═══════════════════┐
-█\e[1;32m hakkuframework... \e[1;30m█
-└═══════════════════┘\e[1;32m"
-sleep 0.5
-echo -e ""
-pip install --upgrade pip
-pip install distutils
-pip install shutil
-pip install getopt
-git clone https://github.com/Scorpio28-Official/hakkuframework
-cd hakkuframework
-chmod +x *
-cd $HOME
-sleep 1
-echo -e "
 \e[1;30m┌═════════════┐
 █\e[1;32m ShodanTH... \e[1;30m█
 └═════════════┘\e[1;32m"
