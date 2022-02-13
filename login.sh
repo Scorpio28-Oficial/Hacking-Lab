@@ -8,13 +8,15 @@ echo -e "\e[1;30m
 █\e[1;32m  Informatic in Termux©\e[1;30m  █
 █                         █
 └══━━━━━━━━━━━━━━━━━━━━━══┘\e[0m"
-echo -e ""
-echo -e ""
-echo -e ""
 sleep 0.5
+echo -e ""
+echo -e ""
+echo -e ""
+sleep 1
 echo -e "\e[1;30m┌═══════════════════════════════════┐
 █\e[1;32m STARTING THE PACKAGE INSTALLATION \e[1;30m█
 └═══════════════════════════════════┘\e[0m"
+sleep 0.5
 echo -e ""
 echo -e ""
 echo -e ""
@@ -27,60 +29,70 @@ echo -e "
 echo -e ""
 apt update -y &> /dev//null
 pkg upgrade -y &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING PYTHON... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
 apt install -y python &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING NMAP... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
 pkg install -y nmap &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING RUBY... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
 pkg install -y ruby &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════┐
 █\e[1;32m INSTALLING PHP... \e[1;30m█
 └═══════════════════┘\e[0m"
 echo -e ""
 pkg install -y php &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════┐
 █\e[1;32m INSTALLING TOR... \e[1;30m█
 └═══════════════════┘\e[0m"
 echo -e ""
 pkg install -y tor &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════════┐
 █\e[1;32m INSTALLING OPENSSH... \e[1;30m█
 └═══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y openssh &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════════┐
 █\e[1;32m INSTALLING OPENSSL... \e[1;30m█
 └═══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y openssl &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING CURL... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
 pkg install -y curl &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING PERL... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
 pkg install -y perl &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING SHODAN... \e[1;30m█
@@ -89,108 +101,126 @@ echo -e ""
 pip install --upgrade pip &> /dev//null
 easy_install shodan &> /dev//null
 pip install shodan requests &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING WGET... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
 pkg install -y wget &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌═════════════════════┐
 █\e[1;32m INSTALLING CLANG... \e[1;30m█
 └═════════════════════┘\e[0m"
 echo -e ""
 pkg install -y clang &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════┐
 █\e[1;32m INSTALLING PV... \e[1;30m█
 └══════════════════┘\e[0m"
 echo -e ""
 pkg install -y pv &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING FISH... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
 pkg install -y fish &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING BASH... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
 pkg install -y bash &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING NANO... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
 pkg install -y nano &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════┐
 █\e[1;32m INSTALLING W3M... \e[1;30m█
 └═══════════════════┘\e[0m"
 echo -e ""
 pkg install -y w3m &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING FIGLET... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y figlet &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING COWSAY... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y cowsay &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌═════════════════════┐
 █\e[1;32m INSTALLING WCALC... \e[1;30m█
 └═════════════════════┘\e[0m"
 echo -e ""
 pkg install -y wcalc &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING TOILET... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y toilet &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌═════════════════════════┐
 █\e[1;32m INSTALLING NET-TOOLS... \e[1;30m█
 └═════════════════════════┘\e[0m"
 echo -e ""
 pkg install -y net-tools &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════════┐
 █\e[1;32m INSTALLING CMATRIX... \e[1;30m█
 └═══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y cmatrix &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌═══════════════════┐
 █\e[1;32m INSTALLING VIM... \e[1;30m█
 └═══════════════════┘\e[0m"
 echo -e ""
 pkg install -y vim &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌══════════════════┐
 █\e[1;32m INSTALLING JQ... \e[1;30m█
 └══════════════════┘\e[0m"
 echo -e ""
 pkg insnall -y jq &> /dev//null
+sleep 0.5
 echo -e "\e[1;30m┌══════════════════════┐
 █\e[1;32m INSTALLING NODEJS... \e[1;30m█
 └══════════════════════┘\e[0m"
 echo -e ""
 pkg install -y nodejs &> /dev//null
 pkg install -y nodejs-lts &> /dev//null
+sleep 0.5
 echo -e "
 \e[1;30m┌════════════════════┐
 █\e[1;32m INSTALLING GREP... \e[1;30m█
 └════════════════════┘\e[0m"
 echo -e ""
 pkg install -y grep &> /dev//null
+sleep 0.5
 echo -e ""
 echo -e "
 \e[1;30m┌═══════════════════════┐
@@ -201,25 +231,28 @@ yes | pkg install netcat-openbsd &> /dev//null
 yes | pkg install mutt &> /dev//null
 yes | pkg install nodejs &> /dev//null
 apt-get install -y espeak &> /dev//null
-echo -e ""
-echo -e ""
-echo -e ""
 sleep 0.5
+echo -e ""
+echo -e ""
+echo -e ""
+sleep 1
 echo -e "
 \e[1;30m┌═══════════════════════════┐
 █\e[1;32m PACKAGE INSTALLATION DONE \e[1;30m█
 └═══════════════════════════┘\e[0m"
 echo -e ""
-clear
 sleep 0.5
+clear
+sleep 1
 echo -e ""
 echo -e "\e[1;30m┌═════════════════════════┐
 █\e[1;32m  STARTING CLONING TOOLS \e[1;30m█
 └═════════════════════════┘\e[0m"
-echo -e ""
-echo -e ""
-echo -e ""
 sleep 0.5
+echo -e ""
+echo -e ""
+echo -e ""
+sleep 1
 cd $HOME
 echo -e "
 \e[1;30m┌═════════════┐
