@@ -22,7 +22,7 @@ $ chmod 777 login.sh
 $ bash login.sh
 ```
 
-#### PASOS PARA SU INSTALACIÓN CORRECTA
+#### PASOS PARA UNA INSTALACIÓN CORRECTA
 
 * [+] Si durante la instalación les aparece una [y/n] dan un 'y' dan enter para continuar, o bien si apacece un default? Solo dan Enter
 
