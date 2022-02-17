@@ -22,15 +22,9 @@ $ chmod 777 login.sh
 $ bash login.sh
 ```
 
-##### SI DURANTE LA INSTALACIO APARECE 
+#### PASOS PARA SU INSTALACIÓN CORRECTA
 
-[y/n]
-
-* [+] Dan un 'y' y dan enter para continuar, o bien si apacece un
-
-default?
-
-Solo dan Enter
+* [+] Si durante la instalación les aparece una [y/n] dan un 'y' dan enter para continuar, o bien si apacece un default? Solo dan Enter
 
 * [+] Cuando ya lo ayan instalado ponen su usuario y dan enter enseguida su contraceña agan captura (al logearse en una nueva sección no visulizaran sus credenciales pero la terminal los lee) y da enter si colocan datos erroneos la terminal se cerrara.
 
