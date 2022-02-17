@@ -34,7 +34,7 @@ default?
 
 Solo dan Enter
 
-###### Cuando ya lo ayan instalado ponen su usuario y dan enter enseguida su contraceña agan captura (al logearse en una nueva sección no visulizaran sus credenciales pero la terminal los lee) y da enter si colocan datos erroneos la terminal se cerrara.
+* [+] Cuando ya lo ayan instalado ponen su usuario y dan enter enseguida su contraceña agan captura (al logearse en una nueva sección no visulizaran sus credenciales pero la terminal los lee) y da enter si colocan datos erroneos la terminal se cerrara.
 
 #### Informatic in Termux
 
@@ -43,20 +43,20 @@ https://t.me/Informatic_in_Termux
 #### By: Scorpio28
 
 
-###### Este pequeño Laboratorio fue creado con fines educativos e informaticos, cualquier uso es responsabilidad de quien lo utilice.
+* [+] Este pequeño Laboratorio fue creado con fines educativos e informaticos, cualquier uso es responsabilidad de quien lo utilice.
 
 
-###### EL CONOCIMIENTO ES LIBRE.
+##### EL CONOCIMIENTO ES LIBRE.
 
 ###### Recomendaciones Opcionales
 
-Descarguen termux styling una vez instalado abren su terminal (termux) mantienen pinchado en la pantalla y seleccionan en:
+* [+] Descarguen termux styling una vez instalado abren su terminal (termux) mantienen pinchado en la pantalla y seleccionan en:
 
 More > Style > Choose Font > Fantasque
 
-Esto para que no se vea de manera nativa y se vea cool y abran sus dos dedos en la pantalla y lo cierran (esto para ajustar el tamaño del banner en caso de que no se visualice bien) y eso seria todo.
+* [+] Esto para que no se vea de manera nativa y se vea cool y abran sus dos dedos en la pantalla y lo cierran (esto para ajustar el tamaño del banner en caso de que no se visualice bien) y eso seria todo.
 
-Ho! Una vez que seleccionen More activan la casilla que dice (Keep screen on) esto para que mientras permanezcan en la terminal (termux) no se les apague la pantalla.
+* [+] Ho! Una vez que seleccionen More activan la casilla que dice (Keep screen on) esto para que mientras permanezcan en la terminal (termux) no se les apague la pantalla.
 
 #### Capturas
 <p align="center">
