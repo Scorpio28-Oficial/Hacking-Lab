@@ -26,9 +26,7 @@ $ bash login.sh
 
 [y/n]
 
-Dan un 'y' y dan enter para continuar
-
-O si apacece un
+* [+] Dan un 'y' y dan enter para continuar, o bien si apacece un
 
 default?
 
