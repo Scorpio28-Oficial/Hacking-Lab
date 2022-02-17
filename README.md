@@ -44,7 +44,7 @@ https://t.me/Informatic_in_Termux
 
 * [+] Descarguen termux styling una vez instalado abren su terminal (termux) mantienen pinchado en la pantalla y seleccionan en:
 
-More > Style > Choose Font > Fantasque
+More > Style > Choose Font > Fantasque o Ubunto
 
 * [+] Esto para que no se vea de manera nativa y se vea cool y abran sus dos dedos en la pantalla y lo cierran (esto para ajustar el tamaño del banner en caso de que no se visualice bien) y eso seria todo.
 
