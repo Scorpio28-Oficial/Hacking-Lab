@@ -695,20 +695,9 @@ echo -e "
 └════════════════┘\e[1;32m"
 sleep 0.5
 echo -e ""
-https://github.com/Scorpio28-Official/termux-ruby
-cd termux-ruby
-chmod +x *
-bash ruby.sh
-cd $HOME
-git clone https://github.com/Scorpio28-Official/termux-msf
-cd termux-msf
-chmod 777 msf.sh
-./msf.sh
-cd $HOME
-apt update && apt upgrade -y
-apt install git curl wget nmap -y
-curl -LO raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh 
-chmod +x metasploit.sh
+git clone https://github.com/Scorpio28-Oficial/MSF
+cd MSF
+chmod 777 metasploit.sh
 ./metasploit.sh
 cd $HOME
 sleep 1
