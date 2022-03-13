@@ -10,6 +10,8 @@
 
 ### INSTALACIÓN (Actualización 2022)
 
+* [+] Se sugiere borrar datos de tu terminal y tener la versión mas reciente de termux.
+
 ```
 $ pkg install -y git
 
