@@ -1,8 +1,6 @@
 #!/bim/bash
 cd Escorpio28
-unzip Hacking-Lab.zip
 bash Hacking-Lab.sh
-rm -rf Hacking-Lab.zip
 cd ..
 #!/bim/bash
 cp login.sh $PREFIX/etc
