@@ -1,5 +1,6 @@
 #!/bim/bash
 cd Escorpio28
+chmod 777 Hacking-Lab.sh
 bash Hacking-Lab.sh
 cd ..
 #!/bim/bash
