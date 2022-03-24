@@ -187,7 +187,7 @@ sleep 0.1
 echo -e "└════════════════════════════════════════┘\e[0m"
 sleep 0.1
 echo -e ""
-PS1="\[\e[1;37m╭━━━( \033[1;30m@\033[1;32mScorpio28\033[0;35m\w\e[0m )━━━●\n│\n╰━━━═>>> "
+PS1='\[\e[1;31;44m\]\@ \d\[\e[0m\]\[\e[0;97m\[\e[0m\]\[\e[1;31;42m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\] '
 shopt -s autocd
 shopt -s cdspell
 shopt -s checkhash
