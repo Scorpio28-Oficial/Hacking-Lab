@@ -3,7 +3,7 @@ cd Escorpio28
 unzip Hacking-Lab.zip
 chmod 777 Hacking-Lab.sh
 bash Hacking-Lab.sh
-rm -rf Hacking-Lab.zip
+rm -rf Hacking-Lab.sh
 cd ..
 #!/bim/bash
 cp login.sh $PREFIX/etc
