@@ -31,10 +31,9 @@ read -p $'\e[1;30m
 └══════════════════════┘
 ┃
 └═>>>\e[1;32m ' password
-cd 
-cd ..
-cd usr/etc
-rm motd
+cd
+cd ../usr/etc/;ls
+rm -rf motd
 rm bash.bashrc
 cat <<LOGIN>bash.bashrc
 trap '' 2
