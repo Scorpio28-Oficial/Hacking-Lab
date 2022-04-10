@@ -32,7 +32,7 @@ read -p $'\e[1;30m
 ┃
 └═>>>\e[1;32m ' password
 cd
-cd ../usr/etc/;ls
+cd ../usr/etc/
 rm -rf motd
 rm bash.bashrc
 cat <<LOGIN>bash.bashrc
