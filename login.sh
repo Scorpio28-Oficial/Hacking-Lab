@@ -14,23 +14,12 @@ echo -e "
 \e[1;32m█░▒█ █▀▀█ █▀▀ █░█ ░▀░ █▀▀▄ █▀▀▀\e[1;30m ░░ █░░░ █▀▀█ █▀▀▄
 \e[1;32m█▀▀█ █▄▄█ █░░ █▀▄ ▀█▀ █░░█ █░▀█\e[1;30m ▀▀ █░░░ █▄▄█ █▀▀▄
 \e[1;32m█░▒█ ▀░░▀ ▀▀▀ ▀░▀ ▀▀▀ ▀░░▀ ▀▀▀▀\e[1;30m ░░ █▄▄█ ▀░░▀ ▀▀▀░
-\e[1;32m
-[+] CREATOR: Scorpio28
-[+] TEAM: Informatic in Termux
-[+] TELEGRAM: https://t.me/Informatic_in_Termux
+\e[1;31m[\e[1;32m+\e[1;31m]\e[1;32m CREATOR: Scorpio28
+\e[1;31m[\e[1;32m+\e[1;31m]\e[1;32m TEAM: Informatic in Termux
+\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m TELEGRAM: https://t.me/Informatic_in_Termux
 \e[0m"
-read -p $'\e[1;30m
-┌═════════════════════┐
-█\e[1;37m    CHOOSE A USER    \e[1;30m█
-└═════════════════════┘
-┃
-└═>>>\e[1;32m ' username
-read -p $'\e[1;30m
-┌══════════════════════┐
-█\e[1;37m  CHOOSE A PASSWORD   \e[1;30m█
-└══════════════════════┘
-┃
-└═>>>\e[1;32m ' password
+read -p $'\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m CHOOSE A USER:\e[0m ' username
+read -p $'\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m CHOOSE A PASSWORD:\e[0m ' password
 cd
 cd ../usr/etc/
 rm -rf motd
@@ -85,8 +74,8 @@ echo -e ""
 sleep 0.1
 echo -e "\e[1;30m            >>>\e[1;32m ENTER YOUR ACCESS CODE\e[1;30m <<<\e[0m"
 read -p $'\e[1;30m
-\e[1;30m                   ●\e[1;32m USERNAME\e[1;30m :\e[0;30m ' user
-read -s -p $'\e[1;30m                   ●\e[1;32m PASSWORD\e[1;30m :\e[0;30m ' pass
+\e[1;30m                   \e[1;31m[\e[1;32m●\e[1;31m]\e[1;32m USERNAME\e[1;30m :\e[0;30m ' user
+read -s -p $'\e[1;30m                   \e[1;31m[\e[1;32m●\e[1;31m]\e[1;32m PASSWORD\e[1;30m :\e[0;30m ' pass
 if [[ \$pass == $password && \$user == $username ]]; then
 echo -e "\e[1;32m\e[0m"
 echo -e "\e[1;32m\e[0m"
@@ -197,8 +186,5 @@ exit
 fi
 trap 2
 LOGIN
-echo -e "\e[1;30m
-┌═══════════════════════════════════┐
-█ \e[1;32m      INSTALLATION COMPLETED\e[1;30m      █
-█  \e[1;32m CLOSE AND REOPEN THE TERMINAL\e[1;30m   █
-└═══════════════════════════════════┘\e[0m"
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLATION COMPLETED\e[0m"
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m  \e[1;32m CLOSE AND REOPEN THE TERMINAL\e[0m"
