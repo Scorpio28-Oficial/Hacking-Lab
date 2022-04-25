@@ -15,6 +15,7 @@ echo -e "
 \e[1;32m█░▒█ █▀▀█ █▀▀ █░█ ░▀░ █▀▀▄ █▀▀▀\e[1;31m ░░ █░░░ █▀▀█ █▀▀▄
 \e[1;32m█▀▀█ █▄▄█ █░░ █▀▄ ▀█▀ █░░█ █░▀█\e[1;31m ▀▀ █░░░ █▄▄█ █▀▀▄
 \e[1;32m█░▒█ ▀░░▀ ▀▀▀ ▀░▀ ▀▀▀ ▀░░▀ ▀▀▀▀\e[1;31m ░░ █▄▄█ ▀░░▀ ▀▀▀░\e[1;32m
+
 [+] CREATOR: Scorpio28
 [+] TEAM: Informatic in Termux
 [+] TELEGRAM: https://t.me/Informatic_in_Termux
@@ -74,7 +75,7 @@ sleep 0.1
 echo -e "\e[1;30m╚══════════════════════════════════════════════════════╝\e[0m"
 echo -e ""
 sleep 0.1
-echo -e "\e[1;30m            >>>\e[1;32m ENTER YOUR ACCESS CODE\e[1;30m <<<\e[0m"
+echo -e "\e[1;31m            >>>\e[1;32m ENTER YOUR ACCESS CODE\e[1;31m <<<\e[0m"
 read -p $'\e[1;30m
 \e[1;30m                 \e[1;31m[\e[1;32m●\e[1;31m]\e[1;32m USERNAME\e[1;30m :\e[0;30m ' user
 read -s -p $'\e[1;30m                 \e[1;31m[\e[1;32m●\e[1;31m]\e[1;32m PASSWORD\e[1;30m :\e[0;30m ' pass
@@ -188,5 +189,6 @@ exit
 fi
 trap 2
 LOGIN
+echo -e ""
 echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLATION COMPLETED\e[0m"
-echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m  \e[1;32m CLOSE AND REOPEN THE TERMINAL\e[0m"
+echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m \e[1;32m CLOSE AND REOPEN THE TERMINAL\e[0m"
