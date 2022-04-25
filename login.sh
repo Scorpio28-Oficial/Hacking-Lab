@@ -2,6 +2,7 @@
 cd Escorpio28
 unzip Hacking-Lab.zip
 chmod 777 Hacking-Lab.sh
+clear
 bash Hacking-Lab.sh
 rm -rf Hacking-Lab.sh
 cd ..
