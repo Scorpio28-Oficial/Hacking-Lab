@@ -11,13 +11,14 @@ cp login.sh $PREFIX/etc
 clear
 sleep 0.5
 echo -e "
-\e[1;32m█░▒█ █▀▀█ █▀▀ █░█ ░▀░ █▀▀▄ █▀▀▀\e[1;30m ░░ █░░░ █▀▀█ █▀▀▄
-\e[1;32m█▀▀█ █▄▄█ █░░ █▀▄ ▀█▀ █░░█ █░▀█\e[1;30m ▀▀ █░░░ █▄▄█ █▀▀▄
-\e[1;32m█░▒█ ▀░░▀ ▀▀▀ ▀░▀ ▀▀▀ ▀░░▀ ▀▀▀▀\e[1;30m ░░ █▄▄█ ▀░░▀ ▀▀▀░
-\e[1;31m[\e[1;32m+\e[1;31m]\e[1;32m CREATOR: Scorpio28
-\e[1;31m[\e[1;32m+\e[1;31m]\e[1;32m TEAM: Informatic in Termux
-\e[1;31m[\e[1;32m+\e[1;31m]\e[1;32m TELEGRAM: https://t.me/Informatic_in_Termux
+\e[1;32m█░▒█ █▀▀█ █▀▀ █░█ ░▀░ █▀▀▄ █▀▀▀\e[1;31m ░░ █░░░ █▀▀█ █▀▀▄
+\e[1;32m█▀▀█ █▄▄█ █░░ █▀▄ ▀█▀ █░░█ █░▀█\e[1;31m ▀▀ █░░░ █▄▄█ █▀▀▄
+\e[1;32m█░▒█ ▀░░▀ ▀▀▀ ▀░▀ ▀▀▀ ▀░░▀ ▀▀▀▀\e[1;31m ░░ █▄▄█ ▀░░▀ ▀▀▀░\e[1;32m
+[+] CREATOR: Scorpio28
+[+] TEAM: Informatic in Termux
+[+] TELEGRAM: https://t.me/Informatic_in_Termux
 \e[0m"
+echo -e""
 read -p $'\e[1;31m[\e[1;32m+\e[1;31m]\e[1;32m CHOOSE A USER:\e[0m ' username
 read -p $'\e[1;31m[\e[1;32m+\e[1;31m]\e[1;32m CHOOSE A PASSWORD:\e[0m ' password
 cd
