@@ -78,7 +78,7 @@ sleep 0.1
 echo -e "\e[1;36m            >>>\e[1;32m ENTER YOUR ACCESS CODE\e[1;36m <<<\e[0m"
 read -p $'\e[1;30m
 \e[1;30m              \e[1;32m ◆ \e[1;36mUSERNAME \e[1;37m❯\e[1;36m❯\e[1;32m❯\e[0m ' user
-read -s -p $'\e[1;30m        \e[1;32m ◆ \e[1;36mPASSWORD \e[1;37m❯\e[1;36m❯\e[1;32m❯\e[0m ' pass
+read -s -p $'\e[1;30m              \e[1;32m ◆ \e[1;36mPASSWORD \e[1;37m❯\e[1;36m❯\e[1;32m❯\e[0m ' pass
 if [[ \$pass == $password && \$user == $username ]]; then
 echo -e "\e[1;32m\e[0m"
 echo -e "\e[1;32m\e[0m"
