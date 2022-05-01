@@ -83,7 +83,7 @@ if [[ \$pass == $password && \$user == $username ]]; then
 echo -e "\e[1;32m\e[0m"
 echo -e "\e[1;32m\e[0m"
 sleep 1
-echo -e -n "\e[1;32m              \e[1;32m A\e[1;36m C\e[1;37m C\e[1;32m E\e[1;36m S\e[1;37m S\e[1;32m I\e[1;36m N\e[1;37m G\e[1;32m  .\e[1;36m .\e[1;37m .\e[0m" |pv -qL 8
+echo -e -n "\e[1;32m              \e[1;32m A\e[1;36m C\e[1;37m C\e[1;32m E\e[1;36m S\e[1;37m S\e[1;32m I\e[1;36m N\e[1;37m G\e[1;32m  .\e[1;36m .\e[1;37m .\e[0m" |pv -qL 15
 echo -e ""
 sleep 2
 clear
