@@ -12,17 +12,17 @@ cp login.sh $PREFIX/etc
 clear
 sleep 0.5
 echo -e "
-\e[1;32m█░▒█ █▀▀█ █▀▀ █░█\e[1;36m░▀░ █▀▀▄ █▀▀▀\e[1;31m░░ █░░░ █▀▀█ █▀▀▄
-\e[1;32m█▀▀█ █▄▄█ █░░ █▀▄\e[1;36m▀█▀ █░░█ █░▀█\e[1;31m▀▀ █░░░ █▄▄█ █▀▀▄
-\e[1;32m█░▒█ ▀░░▀ ▀▀▀ ▀░▀\e[1;36m▀▀▀ ▀░░▀ ▀▀▀▀\e[1;31m░░ █▄▄█ ▀░░▀ ▀▀▀░\e[1;32m
+\e[1;32m█░▒█ █▀▀█ █▀▀ █░█░▀░ █▀▀▄ █▀▀▀\e[1;36m░░ █░░░ █▀▀█ █▀▀▄
+\e[1;32m█▀▀█ █▄▄█ █░░ █▀▄▀█▀ █░░█ █░▀█\e[1;36m▀▀ █░░░ █▄▄█ █▀▀▄
+\e[1;32m█░▒█ ▀░░▀ ▀▀▀ ▀░▀▀▀▀ ▀░░▀ ▀▀▀▀\e[1;36m░░ █▄▄█ ▀░░▀ ▀▀▀░\e[1;32m
 
-\e[1;32m[\e[1;37m+\e[1;32m] CREATOR: Scorpio28
-\e[1;32m[\e[1;37m+\e[1;32m] TEAM: Informatic in Termux
-\e[1;32m[\e[1;37m+\e[1;32m] TELEGRAM: https://t.me/Informatic_in_Termux
+\e[1;31m[\e[1;32m+\e[1;31m]\e[1;32m CREATOR: Scorpio28
+\e[1;31m[\e[1;32m+\e[1;31m]\e[1;32m TEAM: Informatic in Termux
+\e[1;31m[\e[1;32m+\e[1;31m]\e[1;32m TELEGRAM: https://t.me/Informatic_in_Termux
 \e[0m"
 echo -e""
-read -p $'\e[1;32m ◆ \e[1;32mCHOOSE A USER \e[1;37m❯\e[1;36m❯\e[1;32m❯\e[0m ' username
-read -p $'\e[1;32m ◆ \e[1;32mCHOOSE A PASSWORD \e[1;37m❯\e[1;36m❯\e[1;32m❯\e[0m ' password
+read -p $'\e[1;32m ◆ \e[1;36mCHOOSE A USER \e[1;37m❯\e[1;36m❯\e[1;32m❯\e[0m ' username
+read -p $'\e[1;32m ◆ \e[1;36mCHOOSE A PASSWORD \e[1;37m❯\e[1;36m❯\e[1;32m❯\e[0m ' password
 cd
 cd ../usr/etc/
 rm -rf motd
@@ -77,13 +77,13 @@ echo -e ""
 sleep 0.1
 echo -e "\e[1;36m            >>>\e[1;32m ENTER YOUR ACCESS CODE\e[1;36m <<<\e[0m"
 read -p $'\e[1;30m
-\e[1;30m              \e[1;32m ◆ \e[1;32mUSERNAME \e[1;37m❯\e[1;36m❯\e[1;32m❯\e[0m ' user
-read -s -p $'\e[1;30m        \e[1;32m ◆ \e[1;32mPASSWORD \e[1;37m❯\e[1;36m❯\e[1;32m❯\e[0m ' pass
+\e[1;30m              \e[1;32m ◆ \e[1;36mUSERNAME \e[1;37m❯\e[1;36m❯\e[1;32m❯\e[0m ' user
+read -s -p $'\e[1;30m        \e[1;32m ◆ \e[1;36mPASSWORD \e[1;37m❯\e[1;36m❯\e[1;32m❯\e[0m ' pass
 if [[ \$pass == $password && \$user == $username ]]; then
 echo -e "\e[1;32m\e[0m"
 echo -e "\e[1;32m\e[0m"
 sleep 1
-echo -e -n "\e[1;32m               A C C E S S I N G  . . .\e[0m" |pv -qL 8
+echo -e -n "\e[1;32m              \e[1;32m A\e[1;36m C\e[1;37m C\e[1;32m E\e[1;36m S\e[1;37m S\e[1;32m I\e[1;36m N\e[1;37m G\e[1;32m  .\e[1;36m .\e[1;37m .\e[0m" |pv -qL 8
 echo -e ""
 sleep 2
 clear
