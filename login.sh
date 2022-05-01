@@ -192,3 +192,14 @@ LOGIN
 echo -e ""
 echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLATION COMPLETED\e[0m"
 echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m CLOSE AND REOPEN THE TERMINAL\e[0m"
+cd $HOME
+echo "alias bye='exit;exit'" >> $PREFIX/etc/bash.bashrc
+echo "fish" >> $PREFIX/etc/bash.bashrc
+echo "bye" >> $PREFIX/etc/bash.bashrc
+echo -e ""
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+echo -e ""
+pkg install termux-tools -y
+echo -e ""
+cd $HOME
+omf install sashimi
