@@ -188,10 +188,11 @@ sleep 3
 exit
 fi
 trap 2
+echo -e "\e[0m"
+alias bye="exit;exit"
+fish
+bye
 LOGIN
 echo -e ""
 echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLATION COMPLETED\e[0m"
 echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m CLOSE AND REOPEN THE TERMINAL\e[0m"
-cd $HOME
-pkg install fish -y;echo "alias bye='exit;exit'" >> $PREFIX/etc/bash.bashrc;echo "fish" >> $PREFIX/etc/bash.bashrc;echo "bye" >> $PREFIX/etc/bash.bashrc;curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish;pkg install termux-tools -y;omf install sashimi
-omf install sashimi
