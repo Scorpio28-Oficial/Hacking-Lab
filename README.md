@@ -13,15 +13,15 @@
 * [+] Se sugiere borrar datos de tu terminal y tener la versión mas reciente de termux.
 
 ```
-$ pkg install -y git
+pkg install -y git
 
-$ git clone https://github.com/The-Mexicano/Hacking-Lab
+git clone https://github.com/The-Mexicano/Hacking-Lab
 
-$ cd Hacking-Lab
+cd Hacking-Lab
 
-$ chmod 777 login.sh
+chmod 777 login.sh
 
-$ bash login.sh
+bash login.sh
 ```
 
 #### PASOS PARA UNA INSTALACIÓN CORRECTA
