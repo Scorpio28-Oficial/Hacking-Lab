@@ -91,12 +91,6 @@ read -p $'\e[1;30m
 \e[1;30m                   ●\e[1;32m USERNAME\e[1;30m :\e[0;30m ' user
 read -s -p $'\e[1;30m                   ●\e[1;32m PASSWORD\e[1;30m :\e[0;30m ' pass
 if [[ \$pass == $password && \$user == $username ]]; then
-echo -e "\e[1;32m\e[0m"
-echo -e "\e[1;32m\e[0m"
-sleep 1
-echo -e -n "\e[1;32m               A C C E S S I N G  . . .\e[0m" |pv -qL 8
-echo -e ""
-sleep 2
 clear
 echo -e ""
 sleep 0.5
