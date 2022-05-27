@@ -33,6 +33,8 @@ read -p $'\e[1;30m
 ┃
 └═>>>\e[1;32m ' password
 cd
+omf install bobthefish
+omf install separation
 cd ../usr/etc/
 rm -rf motd
 rm bash.bashrc
