@@ -34,7 +34,11 @@ bash login.sh
 
 https://t.me/Informatic_in_Termux
 
-#### By: Scorpio28
+<li>
+<a href="https://t.me/Informatic_in_Termux">Informatic in Termux</a>
+</li>
+
+###### Creator: Scorpio28
 
 
 * [+] Este pequeño Laboratorio fue creado con fines educativos e informaticos, cualquier uso es responsabilidad de quien lo utilice.
