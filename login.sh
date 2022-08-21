@@ -11,9 +11,9 @@ cp login.sh $PREFIX/etc
 #!/data/data/com.termux/usr/bin/bash
 clear
 echo -e "\e[1;32m
-█▀▀█ █▀▀█ █▀▀ █░░█ █░░░ █▀▀█ █▀▀▀ ░▀░ █▀▀▄
-█▀▀▄ █▄▄█ ▀▀█ █▀▀█ █░░░ █░░█ █░▀█ ▀█▀ █░░█
-█▄▄█ ▀░░▀ ▀▀▀ ▀░░▀ █▄▄█ ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀░░▀
+█░▒█ █▀▀█ █▀▀ █░█ ░▀░ █▀▀▄ █▀▀▀ ░░ █░░░ █▀▀█ █▀▀▄
+█▀▀█ █▄▄█ █░░ █▀▄ ▀█▀ █░░█ █░▀█ ▀▀ █░░░ █▄▄█ █▀▀▄
+█░▒█ ▀░░▀ ▀▀▀ ▀░▀ ▀▀▀ ▀░░▀ ▀▀▀▀ ░░ █▄▄█ ▀░░▀ ▀▀▀░
 [+] Creator: Scorpio28
 [+] Team: Informatic in Termux
 [+] Telegram: https://t.me/Informatic_in_Termux
