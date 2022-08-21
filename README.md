@@ -32,7 +32,6 @@ bash login.sh
 
 #### Informatic in Termux
 
-https://t.me/Informatic_in_Termux
 
 <li>
 <a href="https://t.me/Informatic_in_Termux">Informatic in Termux</a>
