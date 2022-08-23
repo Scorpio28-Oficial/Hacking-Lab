@@ -6,7 +6,6 @@ clear
 bash Hacking-Lab.sh
 rm -rf Hacking-Lab.sh
 cd ..
-#!/bim/bash
 cp login.sh $PREFIX/etc
 #!/data/data/com.termux/usr/bin/bash
 clear
