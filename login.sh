@@ -70,6 +70,10 @@ sleep 3
 exit
 fi
 trap 2
+echo -e "\e[1;32m"
+alias bye="exit;exit"
+fish
+bye
 LOGIN
 echo -e "\e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m INSTALLATION COMPLETED
 \e[1;31m[\e[1;32m*\e[1;31m]\e[1;32m CLOSE AND REOPEN THE TERMINAL
